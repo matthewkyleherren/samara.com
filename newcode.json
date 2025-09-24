@@ -1,0 +1,24 @@
+[
+{ name: 'location', type: 'string' },
+{ name: 'type', type: 'string' },
+{ name: 'whatsappnumber', type: 'string' },
+{ name: 'smsnumber', type: 'string' },
+{ name: 'status', type: 'string' },
+{ name: 'status_timestamp', type: 'string' },
+{ name: 'photo_urls', type: 'array' },
+{ name: 'video_urls', type: 'array' },
+{ name: 'nationality', type: 'string' },
+{ name: 'height', type: 'string' },
+{ name: 'age', type: 'number' },
+{ name: 'eye_color', type: 'string' },
+{ name: 'weight', type: 'string' },
+{ name: 'hair_color', type: 'string' },
+{ name: 'pubic_hair', type: 'string' },
+{ name: 'breast_size', type: 'string' },
+{ name: 'biography', type: 'string' },
+{ name: 'offered_services', type: 'array' },
+{ name: 'languages', type: 'array' },
+{ name: 'rates', type: 'object' },
+{ name: 'schedule', type: 'object' }
+]
+

@@ -1,28 +1,37 @@
-#!/usr/bin/env bash
-set -euo pipefail
-
-# Usage:
-#   export FIRECRAWL_API_KEY=fc-xxxx
-#   ./newcurl.sh
-
-# Firecrawl Extract with prompt + schema
-curl -sS -X POST "https://api.firecrawl.dev/v2/extract" \
-  -H "Authorization: Bearer ${FIRECRAWL_API_KEY:-}" \
-  -H "Content-Type: application/json" \
-  -d @- <<'JSON'
-{
-  "urls": [
-    "https://escrtd.com/en/charline/",
-    "https://escrtd.com/en/maya-m/",
-    "https://escrtd.com/en/loly/",
-    "https://escrtd.com/en/virginia/",
-    "https://escrtd.com/en/aiste/",
-    "https://escrtd.com/en/vika/",
-    "https://escrtd.com/en/tiffany/",
-    "https://escrtd.com/en/elise-c/"
-  ],
-  "prompt": "Extract all specified details from each model profile: include all photo and video URLs, offered services, languages, rates for different time periods, and daily schedule.",
-  "schema": {
+curl --request POST \
+  --url "https://api.firecrawl.dev/v2/batch/scrape" \
+  --header 'Authorization: Bearer fc-3ded724c13c3404bab34424f5b4693e4' \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "urls": ["https://escrtd.com/en/adela/", "https://escrtd.com/en/hanna/", "https://escrtd.com/en/marina/", "https://escrtd.com/en/sophia-l/", "https://escrtd.com/en/elise-c/"],
+    "onlyMainContent": false,
+    "includeTags": [
+        ".girlid",
+        ".profileimgurl",
+        ".info_nationality",
+        ".info_age",
+        ".info_height",
+        ".info_weight",
+        ".info_haircolor",
+        ".info_eyes",
+        ".info_pubichair",
+        ".info_breastsize",
+        ".biodescript",
+        ".servicename",
+        ".servicelink",
+        ".languagespoken",
+        ".ratesandcharges",
+        ".whatsappnumber",
+        ".smsnumber"
+    ],
+    "maxAge": 172800000,
+    "parsers": [],
+    "formats": [
+ 
+        "json",
+        {
+            "type": "json",
+              "schema": {
     "type": "object",
     "required": [],
     "properties": {
@@ -35,7 +44,8 @@ curl -sS -X POST "https://api.firecrawl.dev/v2/extract" \
             "name": { "type": "string" },
             "location": { "type": "string" },
             "type": { "type": "string" },
-            "contact_details_whatsapp": { "type": "string" },
+            "whatsappnumber": { "type": "string" },
+            "smsnumber": { "type": "string" },
             "status": { "type": "string" },
             "status_timestamp": { "type": "string" },
             "photo_urls": { "type": "array", "items": { "type": "string" } },
@@ -79,5 +89,6 @@ curl -sS -X POST "https://api.firecrawl.dev/v2/extract" \
       }
     }
   }
-}
-JSON
+        }
+    ]
+}'

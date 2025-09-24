@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "data": {
+    "profile": {
+      "rates": {
+        "timePeriods": []
+      },
+      "photos": [
+        "https://www.bemygirl.ch/image/8514939901db6862fa30eda954eaa311/DSC02344.jpg",
+        "https://www.bemygirl.ch/image/3250b4383324ffe2445e98ef19c2276a/DSC02344.jpg"
+      ],
+      "videos": [
+        "https://www.bemygirl.ch/en/lisa-g/paid-content#item-0"
+      ],
+      "schedule": {
+        "friday": "",
+        "monday": "",
+        "sunday": "",
+        "tuesday": "",
+        "saturday": "",
+        "thursday": "",
+        "wednesday": ""
+      },
+      "services": [],
+      "languages": [
+        "Portuguese",
+        "Spanish",
+        "French"
+      ],
+      "contactDetails": {
+        "whatsapp": "41779601234",
+        "mobilePhone": ""
+      }
+    }
+  },
+  "status": "completed"
+}

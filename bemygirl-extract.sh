@@ -3,25 +3,21 @@ set -euo pipefail
 
 # Usage:
 #   export FIRECRAWL_API_KEY=fc-xxxx
-#   ./newcurl.sh
+#   ./bemygirl-extract.sh > bemygirl_extract.json
 
-# Firecrawl Extract with prompt + schema
 curl -sS -X POST "https://api.firecrawl.dev/v2/extract" \
   -H "Authorization: Bearer ${FIRECRAWL_API_KEY:-}" \
-  -H "Content-Type: application/json" \
+  -H 'Content-Type: application/json' \
   -d @- <<'JSON'
 {
   "urls": [
-    "https://escrtd.com/en/charline/",
-    "https://escrtd.com/en/maya-m/",
-    "https://escrtd.com/en/loly/",
-    "https://escrtd.com/en/virginia/",
-    "https://escrtd.com/en/aiste/",
-    "https://escrtd.com/en/vika/",
-    "https://escrtd.com/en/tiffany/",
-    "https://escrtd.com/en/elise-c/"
+    "https://www.bemygirl.ch/en/carla",
+    "https://www.bemygirl.ch/en/khalifa",
+    "https://www.bemygirl.ch/en/vita",
+    "https://www.bemygirl.ch/en/tianna",
+    "https://www.bemygirl.ch/en/kristina"
   ],
-  "prompt": "Extract all specified details from each model profile: include all photo and video URLs, offered services, languages, rates for different time periods, and daily schedule.",
+  "prompt": "From each Bemygirl profile page, extract a complete structured profile. Be exhaustive and use all visible content including headers, labeled lists, galleries, and any text sections. For media, return direct image URLs found in the gallery and any video URLs. For languages/services, return normalized arrays of strings. For rates, map the displayed durations to keys (30_minutes, 1_hour, 1_night, 1_weekend). For schedule, include each weekday with the displayed hours or an empty string if missing. Critically, capture contact details: WhatsApp and mobile phone. Look for wa.me links, whatsapp: text, and tel: links; normalize WhatsApp by stripping non-digits. Return empty strings/arrays instead of omitting missing fields.",
   "schema": {
     "type": "object",
     "required": [],
@@ -35,19 +31,26 @@ curl -sS -X POST "https://api.firecrawl.dev/v2/extract" \
             "name": { "type": "string" },
             "location": { "type": "string" },
             "type": { "type": "string" },
-            "contact_details_whatsapp": { "type": "string" },
+            "contact_details": {
+              "type": "object",
+              "required": [],
+              "properties": {
+                "whatsapp": { "type": "string" },
+                "mobilePhone": { "type": "string" }
+              }
+            },
             "status": { "type": "string" },
             "status_timestamp": { "type": "string" },
             "photo_urls": { "type": "array", "items": { "type": "string" } },
             "video_urls": { "type": "array", "items": { "type": "string" } },
             "nationality": { "type": "string" },
             "height": { "type": "string" },
-            "age": { "type": "number" },
-            "eye_color": { "type": "string" },
-            "weight": { "type": "string" },
-            "hair_color": { "type": "string" },
-            "pubic_hair": { "type": "string" },
-            "breast_size": { "type": "string" },
+            "age": { "type": ["number","null"] },
+            "eye_color": { "type": ["string","null"] },
+            "weight": { "type": ["string","null"] },
+            "hair_color": { "type": ["string","null"] },
+            "pubic_hair": { "type": ["string","null"] },
+            "breast_size": { "type": ["string","null"] },
             "biography": { "type": "string" },
             "offered_services": { "type": "array", "items": { "type": "string" } },
             "languages": { "type": "array", "items": { "type": "string" } },
@@ -81,3 +84,5 @@ curl -sS -X POST "https://api.firecrawl.dev/v2/extract" \
   }
 }
 JSON
+
+
