@@ -17,7 +17,7 @@
             </a>
         </h1>
         <img class="xl-10-title" src="/assets/images/home/mollyhero_desktop.svg" width="100%" height="auto" alt="XL 10" />
-        <div style="margin-left: auto; margin-right: auto;z-index: 10; height: 100vh; min-width:100vw; background: url(/assets/images/home/hero-trans.webp); background-size: auto 100%; background-position-x:40%;background-repeat: no-repeat;">
+        <div style="margin-left: auto; margin-right: auto;z-index: 10; height: 100vh; min-width:100vw; background: url(/assets/images/home/hero-trans5.webp); background-size: auto 100%; background-position-x:40%;background-repeat: no-repeat;">
         <a href="/backyard/xl-10" title="Backyard XL 10" style="">
             
         </a>
