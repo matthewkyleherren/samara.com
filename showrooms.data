@@ -15,7 +15,7 @@
                     </div>
                 </h1>
                 <div class="spacer-50 m-spacer-32"></div>
-                <p class="type-18 m-type-15 color-text-60">Discover what makes Backyard&nbsp;better.</p>
+                <p class="type-18 m-type-15 color-text-60">Discover what makes Models&nbsp;better.</p>
             </div>
         </div>
 
@@ -25,21 +25,21 @@
 
 <div class="modern-slideshow" data-tooltip="true">
     <img class="rounded-6 drop-shadow" width="4410" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-01/hero-01-1100.jpg 768w, /assets/images/showroom/hero-01/hero-01-2880.jpg" alt="Samara showroom"  />
+        srcset="/assets/images/showroom/hero-01/hero-01-1100.jpg 768w, /assets/images/showroom/hero-01/hero-01-2880.jpg" alt="Escrtd™ showroom"  />
     <img class="rounded-6 drop-shadow" width="2243" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-02/hero-02-1100.jpg 768w, /assets/images/showroom/hero-02/hero-02-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-02/hero-02-1100.jpg 768w, /assets/images/showroom/hero-02/hero-02-2880.jpg" alt="Escrtd™ showroom" />
     <img class="rounded-6 drop-shadow" width="1958" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-03/hero-03-1100.jpg 768w, /assets/images/showroom/hero-03/hero-03-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-03/hero-03-1100.jpg 768w, /assets/images/showroom/hero-03/hero-03-2880.jpg" alt="Escrtd™ showroom" />
     <img class="rounded-6 drop-shadow" width="2397" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-04/hero-04-1100.jpg 768w, /assets/images/showroom/hero-04/hero-04-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-04/hero-04-1100.jpg 768w, /assets/images/showroom/hero-04/hero-04-2880.jpg" alt="Escrtd™ showroom" />
     <img class="rounded-6 drop-shadow" width="1957" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-07/hero-07-1100.jpg 768w, /assets/images/showroom/hero-07/hero-07-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-07/hero-07-1100.jpg 768w, /assets/images/showroom/hero-07/hero-07-2880.jpg" alt="Escrtd™ showroom" />
     <img class="rounded-6 drop-shadow" width="1961" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-08/hero-08-1100.jpg 768w, /assets/images/showroom/hero-08/hero-08-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-08/hero-08-1100.jpg 768w, /assets/images/showroom/hero-08/hero-08-2880.jpg" alt="Escrtd™ showroom" />
     <img class="rounded-6 drop-shadow" width="1953" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-09/hero-09-1100.jpg 768w, /assets/images/showroom/hero-09/hero-09-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-09/hero-09-1100.jpg 768w, /assets/images/showroom/hero-09/hero-09-2880.jpg" alt="Escrtd™ showroom" />
      <img class="rounded-6 drop-shadow" width="4410" height="2940" loading="lazy"
-        srcset="/assets/images/showroom/hero-06/hero-06-1100.jpg 768w, /assets/images/showroom/hero-06/hero-06-2880.jpg" alt="Samara showroom" />
+        srcset="/assets/images/showroom/hero-06/hero-06-1100.jpg 768w, /assets/images/showroom/hero-06/hero-06-2880.jpg" alt="Escrtd™ showroom" />
 </div>
 
 <div class="page-section">
@@ -210,12 +210,12 @@
             <li class="showroom-events-event" data-start-at="2025-09-13 11:00:00 +0000">
                 <a href="/showrooms/events/250913-open-house-thousand-oaks">
                         <div class="showroom-event-image">
-                            <img src="https://www.samara.com/assets/remote/e4aabca4-37ec-4044-9765-999dc9224a00/w=2200" alt="9/13 Open House: Thousand Oaks" width="2200" height="1200" />
+                            <img src="https://escrtd.com/assets/remote/e4aabca4-37ec-4044-9765-999dc9224a00/w=2200" alt="9/13 Open House: Thousand Oaks" width="2200" height="1200" />
                         </div>
                         <div class="spacer-24 m-spacer-16"></div>
                     <h2 class="type-30-light m-type-18">9/13 Open House: Thousand Oaks</h2>
                     <div class="spacer-8"></div>
-                    <p class="type-14 color-text-60">Drop by our Thousand Oaks pop-up and tour our stunning one-bedroom Backyard unit. Light refreshments and great vibes guaranteed.
+                    <p class="type-14 color-text-60">Drop by our Thousand Oaks pop-up and tour our stunning one-bedroom Models unit. Light refreshments and great vibes guaranteed.
 </p>
                     <div class="spacer-36"></div>
                     <hr>
@@ -262,7 +262,7 @@
         <div class="footer-nav footer-nav-variant-light">
     <div class="modern-grid">
         <ul class="column-3">
-                <li><a href="/" class="alt">Samara</a></li>
+                <li><a href="/" class="alt">Escrtd™</a></li>
                 <li><a href="/news">News</a></li>
                 <li><a href="/insights">Insights</a></li>
                 <li><a href="/jobs">Jobs</a></li>
@@ -270,19 +270,19 @@
                 <li><a href="/developers">For Developers</a></li>
         </ul>
         <ul class="column-3">
-                <li><a href="/backyard" class="alt">Backyard</a></li>
-                <li><a href="/backyard/models">Models</a></li>
-                <li><a href="/backyard/configure">Design yours</a></li>
-                <li><a href="/backyard/how-it-works">How it works</a></li>
-                <li><a href="/backyard/financing">Financing</a></li>
-                <li><a href="/backyard/faq">FAQ</a></li>
-                <li><a href="/backyard/guides">Local guides</a></li>
+                <li><a href="/models" class="alt">Models</a></li>
+                <li><a href="/models/models">Models</a></li>
+                <li><a href="/models/configure">Design yours</a></li>
+                <li><a href="/models/about">How it works</a></li>
+                <li><a href="/models/financing">Financing</a></li>
+                <li><a href="/models/faq">FAQ</a></li>
+                <li><a href="/models/guides">Local guides</a></li>
         </ul>
         <ul class="column-3">
                 <li><div class="m-spacer-24"></div>Social</li>
-                <li><a href="https://instagram.com/meetsamara" target="_blank">Instagram</a></li>
-                <li><a href="https://www.youtube.com/@meetsamara/" target="_blank">YouTube</a></li>
-                <li><a href="https://www.linkedin.com/company/meetsamara" target="_blank">LinkedIn</a></li>
+                <li><a href="https://instagram.com/escrtdsexperience__" target="_blank">Instagram</a></li>
+                <li><a href="https://www.youtube.com/@escrtdsexperience__/" target="_blank">YouTube</a></li>
+                <li><a href="https://www.linkedin.com/company/escrtdsexperience__" target="_blank">LinkedIn</a></li>
         </ul>
 
         <div class="column-3 m-column-6 footer-contact">
@@ -305,10 +305,10 @@
                 </form>
                 <div class="footer-contact-status">
                     <div class="type-14 footer-co/assets/images/ footer-contact-subscription-success-note">
-                        <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Samara updates.
+                        <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Escrtd™ updates.
                     </div>
                     <div class="type-14 footer-contact-secondary footer-contact-subscription-failure-note">
-                        Something went wrong.<br /><a href="mailto:customercare@samara.com?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
+                        Something went wrong.<br /><a href="mailto:help@escrtd.com?subject=Put me on the fucking list">Click here</a> to get on the fucking email list.
                     </div>
                 </div>
             </div>
@@ -317,7 +317,7 @@
     <div class="spacer-32"></div>
     <div class="modern-grid type-14 footer-legal">
         <div class="column-9 m-column-6">
-            © 2025 Samara Living Inc.
+            © 2025 escrtd.com
             <div class="m-spacer-8"></div>
         </div>
         <div class="column-3 m-column-6">

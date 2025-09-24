@@ -19,7 +19,7 @@
         <div class="modern-grid">
             <div class="column-3"></div>
             <div class="column-6 type-24-light leading-150 m-type-18 color-white">
-                Steadfast LA has partnered with Samara to provide homes at no cost to low-income Altadena and Pacific Palisades homeowners who lost their primary residences and lack the resources to rebuild, facing potential displacement from their properties. If you've lost your home and are facing challenges with rebuilding, please visit <a href="https://www.steadfastla.net/" target="_blank" class="type-regola-regular">steadfastla.net</a> to learn more about eligibility and submit your&nbsp;information.
+                Steadfast LA has partnered with Escrtd™ to provide homes at no cost to low-income Altadena and Pacific Palisades homeowners who lost their primary residences and lack the resources to rebuild, facing potential displacement from their properties. If you've lost your home and are facing challenges with rebuilding, please visit <a href="https://www.steadfastla.net/" target="_blank" class="type-regola-regular">steadfastla.net</a> to learn more about eligibility and submit your&nbsp;information.
             </div>
         </div>
         <div class="spacer-150 l-spacer-80"></div>
@@ -58,7 +58,7 @@
             </div>
             <div class="insights-module-faq-pair">
                 <div class="insights-module-faq-question type-18 m-type-15">
-                    How long does it typically take to install a Samara ADU?
+                    How long does it typically take to install a Escrtd™ ADU?
                 </div>
                 <div class="insights-module-faq-answer type-18 m-type-15">
                         <p>The process typically takes 5-6 months for design and permitting, with an additional 6-8 weeks for installation, varying by model and site conditions.</p>
@@ -88,10 +88,10 @@
             </div>
             <div class="insights-module-faq-pair">
                 <div class="insights-module-faq-question type-18 m-type-15">
-                    How are Backyard ADUs designed for fire safety?
+                    How are Models ADUs designed for fire safety?
                 </div>
                 <div class="insights-module-faq-answer type-18 m-type-15">
-                        <p>Learn more about how Backyard is fire resistant by design <a href="https://www.samara.com/insights/how-we-built-a-fire-resistant-ADU">here</a>.</p>
+                        <p>Learn more about how Models is fire resistant by design <a href="https://www.samara.com/insights/how-we-built-a-fire-resistant-ADU">here</a>.</p>
 
                 </div>
             </div>
@@ -308,7 +308,7 @@
             	<h1 class="type-48 m-type-30-light l-type-36">Available in California.</h1>
 	            <h1 class="type-48 m-type-30-light l-type-36 color-text-40">
 	                Starting at $152k<br /> <nobr>plus installation.
-	                <a href="/backyard/financing">
+	                <a href="/models/financing">
 	                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 	                        <rect x="1.5" y="1.54883" width="26" height="26" rx="13" stroke="black" stroke-opacity="0.4" stroke-width="2"/>
 	                        <path d="M11.24 18.809H14.0533V14.329H11.24V12.569H16.1333V18.809H19.0933V20.569H11.24V18.809ZM13.6666 9.0623C13.6666 8.72897 13.7867 8.44897 14.04 8.20897C14.28 7.96897 14.6267 7.8623 15.0667 7.8623C15.5067 7.8623 15.8667 7.9823 16.1333 8.20897C16.4 8.44897 16.5333 8.72897 16.5333 9.0623C16.5333 9.39564 16.4 9.68897 16.1333 9.9023C15.8667 10.1156 15.5067 10.2356 15.0667 10.2356C14.6267 10.2356 14.2933 10.129 14.04 9.9023C13.8 9.68897 13.6666 9.40897 13.6666 9.0623Z" fill="black" fill-opacity="0.4"/>
@@ -318,7 +318,7 @@
 
             <div class="spacer-24 m-spacer-16"></div>
 
-            	<a class="type-48 m-type-30-light l-type-36" href="/backyard/configure">
+            	<a class="type-48 m-type-30-light l-type-36" href="/models/configure">
 	                Design yours
 	                <svg width="33" height="22" viewBox="0 0 33 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 	                    <path d="M22.1687 21.427L20.0935 19.3942L27.0812 12.4489H0.5V9.5692H27.0812L20.0512 2.58159L22.1263 0.548828L32.5865 11.0091L22.1687 21.427Z" fill="#0096F7"/>
@@ -337,7 +337,7 @@
 		            </nobr>
 	            </div>
         </div>
-        <img loading="lazy" alt="Backyard one bedroom" width="4000" height="926" src="/assets/images/backyard/front-elevations/onebedroom.frontdoors.solarfull.basebonewhite.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basebonewhite.roofdarkbronze.front-4016.webp" />
+        <img loading="lazy" alt="Models one bedroom" width="4000" height="926" src="/assets/images/models/front-elevations/onebedroom.frontdoors.solarfull.basebonewhite.roofdarkbronze.front/onebedroom.frontdoors.solarfull.basebonewhite.roofdarkbronze.front-4016.webp" />
     </div>
     <div class="spacer-8"></div>
 </div>
@@ -346,76 +346,74 @@
 
         <div style="background: #fdfdf7;">
                 <div class="footer-nav footer-nav-variant-light">
-    <div class="modern-grid">
-        <ul class="column-3">
-                <li><a href="/" class="alt">Samara</a></li>
-                <li><a href="/news">News</a></li>
-                <li><a href="/insights">Insights</a></li>
-                <li><a href="/jobs">Jobs</a></li>
-                <li><a href="/showrooms">Showrooms</a></li>
-                <li><a href="/developers">For Developers</a></li>
-        </ul>
-        <ul class="column-3">
-                <li><a href="/backyard" class="alt">Backyard</a></li>
-                <li><a href="/backyard/models">Models</a></li>
-                <li><a href="/backyard/configure">Design yours</a></li>
-                <li><a href="/backyard/how-it-works">How it works</a></li>
-                <li><a href="/backyard/financing">Financing</a></li>
-                <li><a href="/backyard/faq">FAQ</a></li>
-                <li><a href="/backyard/guides">Local guides</a></li>
-        </ul>
-        <ul class="column-3">
-                <li><div class="m-spacer-24"></div>Social</li>
-                <li><a href="https://instagram.com/meetsamara" target="_blank">Instagram</a></li>
-                <li><a href="https://www.youtube.com/@meetsamara/" target="_blank">YouTube</a></li>
-                <li><a href="https://www.linkedin.com/company/meetsamara" target="_blank">LinkedIn</a></li>
-        </ul>
-
-        <div class="column-3 m-column-6 footer-contact">
-            <div class="m-spacer-32"></div>
-            <div class="m-spacer-16"></div>
-            <div class="type-14">Have questions?</div>
-            <button class="type-14" onclick="Contact.show({ variant: 'default' })">Contact us</button>
-            <div class="spacer-8"></div>
-            <div class="footer-contact-subscription">
-                <div class="type-14">Get updates</div>
-                <div class="type-14 footer-contact-secondary">Drop us your email to learn what’s&nbsp;next.</div>
-                <form class="footer-contact-input" action="/">
-                    <input type="email" class="type-14 m-type-16" required name="email" aria-label="Your email" tabindex="-1" />
-                    <input tabindex="-1" loading="lazy" type="image" src="/assets/images/icons/chevron-white.svg" alt="Submit">
-                    <div class="loader">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </form>
-                <div class="footer-contact-status">
-                    <div class="type-14 footer-contact-secondary footer-contact-subscription-success-note">
-                        <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Samara updates.
-                    </div>
-                    <div class="type-14 footer-contact-secondary footer-contact-subscription-failure-note">
-                        Something went wrong.<br /><a href="mailto:customercare@samara.com?subject=Site error: joining mailing list">Click here</a> to subscribe via email.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="spacer-32"></div>
-    <div class="modern-grid type-14 footer-legal">
-        <div class="column-9 m-column-6">
-            © 2025 Samara Living Inc.
-            <div class="m-spacer-8"></div>
-        </div>
-        <div class="column-3 m-column-6">
-                <ol class="footnotes">
-                    <li>“Net zero” may change for build sites with significant shading.</li>
-                </ol>
-            <div class="footer-legal-links">
-                    <a href="/privacy-policy">Privacy policy</a>
-                    <a href="/terms-of-service">Terms of service</a>
-            </div>
-        </div>
-    </div>
+   <div class="modern-grid">
+                 <ul class="column-3">
+                         <li><a href="/" class="alt">Escrtd™</a></li>
+                         <li><a href="/about">About Us</a></li>
+                         <!-- <li><a href="/partners">Partners</a></li> -->
+                         <li><a href="/news">News</a></li>
+                         <li><a href="/insights">Insights</a></li>
+                         <li><a href="/jobs">Jobs</a></li>
+                 </ul>
+                 <ul class="column-3">
+                         <li><a href="/models" class="alt">Ladies, sex et al.</a></li>
+                         <li><a href="/models/start">Models</a></li>
+                         <li><a href="/models/book">Book, chat & more</a></li>
+                         <li><a href="/models/how">How it works</a></li>
+                         <li><a href="/models/faq">FAQ</a></li>
+                 </ul>
+                 <ul class="column-3">
+                         <li><div class="m-spacer-24"></div>Social</li>
+                         <li><a href="https://instagram.com/escrtdsexperience__" target="_blank">Instagram</a></li>
+                         <li><a href="https://www.youtube.com/@escrtdsexperience__/" target="_blank">YouTube</a></li>
+                         <li><a href="https://www.linkedin.com/company/escrtdcompany" target="_blank">LinkedIn</a></li>
+                 </ul>
+         
+                 <div class="column-3 m-column-6 footer-contact">
+                     <div class="m-spacer-32"></div>
+                     <div class="m-spacer-16"></div>
+                     <div class="type-14">Have questions?</div>
+                     <button class="type-14" onclick="Contact.show({ variant: 'default' })">Contact us</button>
+                     <div class="spacer-8"></div>
+                    <!--  <div class="footer-contact-subscription">
+                         <div class="type-14">Get updates</div>
+                         <div class="type-14 footer-contact-secondary">Drop us your email to learn what’s&nbsp;next.</div>
+                         <form class="footer-contact-input" action="/">
+                             <input type="email" class="type-14 m-type-16" required name="email" aria-label="Your email" tabindex="-1" />
+                             <input tabindex="-1" loading="lazy" type="image" src="/assets/images/icons/chevron-white.svg" alt="Submit">
+                             <div class="loader">
+                                 <div></div>
+                                 <div></div>
+                                 <div></div>
+                             </div>
+                         </form>
+                         <div class="footer-contact-status">
+                             <div class="type-14 footer-contact-secondary footer-contact-subscription-success-note">
+                                 <img loading="lazy" src="/assets/images/icons/checkmark-white.svg" width="12" height="12" alt="Checkmark"> You’ve subscribed to Escrtd™ updates.
+                             </div>
+                             <div class="type-14 footer-contact-secondary footer-contact-subscription-failure-note">
+                                 Something went wrong.<br /><a href="mailto:help@escrtd.com?subject=Put me on the fucking list">Click here</a> to get on the fucking email list.
+                             </div>
+                         </div>
+                     </div> -->
+                 </div>
+             </div>
+             <div class="spacer-32"></div>
+             <div class="modern-grid type-14 footer-legal">
+                 <div class="column-9 m-column-6">
+                     © 2025 Escrtd™
+                     <div class="m-spacer-8"></div>
+                 </div>
+                 <div class="column-3 m-column-6">
+                         <ol class="footnotes">
+                             <li>POWERED BY FCK, INC. & OWNED BY LADIES YOU FIND HERE.</li>
+                         </ol>
+                     <div class="footer-legal-links">
+                             <a href="/privacy-policy">Privacy policy</a>
+                             <a href="/terms-of-service">Terms of service</a>
+                     </div>
+                 </div>
+             </div>
     <div class="m-spacer-16"></div>
 </div>
 

@@ -1637,7 +1637,7 @@ body.legal {
     color: inherit
 }
 
-.backyard .legal .phone {
+.models .legal .phone {
     display: unset
 }
 
@@ -1670,12 +1670,12 @@ body.legal {
     color: #fff
 }
 
-.multiunit nav .backyard-configure {
+.multiunit nav .models-configure {
     opacity: 1;
     pointer-events: all
 }
 
-.multiunit nav .backyard-configure img {
+.multiunit nav .models-configure img {
     display: none
 }
 
@@ -1731,7 +1731,7 @@ body.legal {
 }
 
 @media (max-width:768px) {
-    .multiunit nav .backyard-configure {
+    .multiunit nav .models-configure {
         transform: translate3d(-2px, 0, 0);
         box-sizing: border-box;
         padding: 0;
@@ -1740,13 +1740,13 @@ body.legal {
         height: 42px
     }
 
-    .multiunit nav .backyard-configure img {
+    .multiunit nav .models-configure img {
         display: block;
         position: absolute;
         transform: translateX(-25%) translateY(15%)
     }
 
-    .multiunit nav .backyard-configure span {
+    .multiunit nav .models-configure span {
         display: none
     }
 
@@ -4179,7 +4179,7 @@ h1 {
     }
 }
 
-.backyard .slide.xl-10 {
+.models .slide.xl-10 {
     position: relative;
     background: var(--color-biege-darker);
     aspect-ratio: 1440/825;
@@ -4187,7 +4187,7 @@ h1 {
     overflow: hidden
 }
 
-.backyard .slide.xl-10 .xl-10-animation-container {
+.models .slide.xl-10 .xl-10-animation-container {
     opacity: 0;
     transition: opacity 1s .4s;
     will-change: opacity;
@@ -4195,11 +4195,11 @@ h1 {
     height: 100%
 }
 
-.backyard .slide.xl-10.xl-10-loaded .xl-10-animation-container {
+.models .slide.xl-10.xl-10-loaded .xl-10-animation-container {
     opacity: 1
 }
 
-.backyard .slide.xl-10 .xl-10-parallax-container {
+.models .slide.xl-10 .xl-10-parallax-container {
     position: absolute;
     transform: translate3d(0, 2%, 0);
     transition: transform 2s cubic-bezier(.16, 1, .3, 1) .4s;
@@ -4208,15 +4208,15 @@ h1 {
     height: 100%
 }
 
-.backyard .slide.xl-10 .xl-10-parallax-container:has(.xl-10-front) {
+.models .slide.xl-10 .xl-10-parallax-container:has(.xl-10-front) {
     z-index: 10
 }
 
-.backyard .slide.xl-10.xl-10-loaded .xl-10-parallax-container {
+.models .slide.xl-10.xl-10-loaded .xl-10-parallax-container {
     transform: none
 }
 
-.backyard .slide.xl-10 .xl-10-parallax {
+.models .slide.xl-10 .xl-10-parallax {
     position: absolute;
     aspect-ratio: 1440/1728;
     width: 100vw;
@@ -4229,24 +4229,24 @@ h1 {
         display: block
     }
 
-    .backyard .slide.xl-10 {
+    .models .slide.xl-10 {
         aspect-ratio: 375/596
     }
 
-    .backyard .slide.xl-10 .xl-10-parallax-container {
+    .models .slide.xl-10 .xl-10-parallax-container {
         transform: none
     }
 
-    .backyard .slide.xl-10 .xl-10-parallax {
+    .models .slide.xl-10 .xl-10-parallax {
         aspect-ratio: 375/639
     }
 }
 
-.backyard .slide.xl-10 .xl-10-front {
+.models .slide.xl-10 .xl-10-front {
     z-index: 2
 }
 
-.backyard .slide.xl-10 .xl-10-birds {
+.models .slide.xl-10 .xl-10-birds {
     position: absolute;
     top: 0;
     left: 0;
@@ -4255,7 +4255,7 @@ h1 {
     height: 100%
 }
 
-.backyard .slide.xl-10 .xl-10-title {
+.models .slide.xl-10 .xl-10-title {
     position: absolute;
     top: 50%;
     left: 0%;
@@ -4268,19 +4268,19 @@ h1 {
     height: auto
 }
 
-.backyard .slide.xl-10.xl-10-loaded .xl-10-title {
+.models .slide.xl-10.xl-10-loaded .xl-10-title {
     transform: none;
     opacity: 1
 }
 
-.backyard .slide.xl-10 h1,
-.backyard .slide.xl-10 h2 {
+.models .slide.xl-10 h1,
+.models .slide.xl-10 h2 {
     top: 10.5vw;
     line-height: 120%;
     font-family: regola-light, sans-serif
 }
 
-.backyard .slide.xl-10 .xl-10-small-living {
+.models .slide.xl-10 .xl-10-small-living {
     position: absolute;
     left: 12vw;
     z-index: 20;
@@ -4289,31 +4289,31 @@ h1 {
 }
 
 @media (max-width:1024px) {
-    .backyard .slide.xl-10 .xl-10-title {
+    .models .slide.xl-10 .xl-10-title {
         top: 23%;
         margin-left: -12vw;
         width: 24vw
     }
 
-    .backyard .slide.xl-10 h1,
-    .backyard .slide.xl-10 h2 {
+    .models .slide.xl-10 h1,
+    .models .slide.xl-10 h2 {
         top: 13vw
     }
 
-    .backyard .slide.xl-10 .xl-10-small-living {
+    .models .slide.xl-10 .xl-10-small-living {
         font-size: clamp(21px, 2vw, 48px)
     }
 }
 
 @media (max-width:768px) {
-    .backyard .slide.xl-10 .xl-10-title {
+    .models .slide.xl-10 .xl-10-title {
         top: 23.5%;
         margin-left: -38.5vw;
         width: 77vw;
         height: 30vw
     }
 
-    .backyard .slide.xl-10 .xl-10-small-living {
+    .models .slide.xl-10 .xl-10-small-living {
         top: 22vw;
         left: 0;
         width: 100vw;
@@ -4321,12 +4321,12 @@ h1 {
         text-align: center
     }
 
-    .backyard .slide.xl-10 .xl-10-small-living br {
+    .models .slide.xl-10 .xl-10-small-living br {
         display: none
     }
 }
 
-.backyard .slide.xl-10 .xl-10-introducing {
+.models .slide.xl-10 .xl-10-introducing {
     position: absolute;
     left: 74vw;
     z-index: 20;
@@ -4336,14 +4336,14 @@ h1 {
 }
 
 @media (max-width:1024px) {
-    .backyard .slide.xl-10 .xl-10-introducing {
+    .models .slide.xl-10 .xl-10-introducing {
         left: 70vw;
         font-size: clamp(18px, 1.4vw, 21px)
     }
 }
 
 @media (max-width:768px) {
-    .backyard .slide.xl-10 .xl-10-introducing {
+    .models .slide.xl-10 .xl-10-introducing {
         display: flex;
         top: unset;
         bottom: 50px;
@@ -4368,7 +4368,7 @@ h1 {
     }
 }
 
-.backyard .slide.xl-10 .xl-10-introducing a {
+.models .slide.xl-10 .xl-10-introducing a {
     display: inline-flex;
     align-items: center;
     gap: 4px;
@@ -4383,19 +4383,19 @@ h1 {
     letter-spacing: 0
 }
 
-.backyard .slide.xl-10 .xl-10-introducing a svg {
+.models .slide.xl-10 .xl-10-introducing a svg {
     position: relative;
     top: 1px
 }
 
-.backyard .slide.intro-carousel-new {
+.models .slide.intro-carousel-new {
     flex-direction: column;
     align-items: center;
     background: linear-gradient(180deg, #fff 0, #fdfdf7 100%);
     min-height: unset
 }
 
-.backyard .slide .intro-carousel-container {
+.models .slide .intro-carousel-container {
     aspect-ratio: 1440/735;
     width: 100%;
     height: auto
@@ -4431,7 +4431,7 @@ h1 {
     color: var(--color-blue)
 }
 
-.backyard .slides .intro-carousel {
+.models .slides .intro-carousel {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -4441,32 +4441,32 @@ h1 {
     min-height: unset
 }
 
-.backyard .slides .intro-carousel .mobile {
+.models .slides .intro-carousel .mobile {
     display: none
 }
 
-.backyard .slides .intro-carousel-layout {
+.models .slides .intro-carousel-layout {
     display: flex;
     align-items: flex-end;
     gap: 12px
 }
 
-.backyard .slides .intro-carousel h1 br {
+.models .slides .intro-carousel h1 br {
     display: none
 }
 
 @media (max-width:1024px) {
-    .backyard .slides .intro-carousel h1 {
+    .models .slides .intro-carousel h1 {
         margin-bottom: 32px;
         text-align: center
     }
 
-    .backyard .slides .intro-carousel h1 br {
+    .models .slides .intro-carousel h1 br {
         display: unset
     }
 }
 
-.backyard .slides #intro-carousel-layout-name {
+.models .slides #intro-carousel-layout-name {
     color: #000
 }
 
@@ -4483,30 +4483,30 @@ h1 {
         color: #fff
     }
 
-    .backyard .slide.xl-10 .xl-10-introducing a:hover {
+    .models .slide.xl-10 .xl-10-introducing a:hover {
         color: #666
     }
 
-    .backyard .slide.xl-10 .xl-10-introducing a:hover svg {
+    .models .slide.xl-10 .xl-10-introducing a:hover svg {
         opacity: .6
     }
 
-    .backyard .slide.xl-10 .xl-10-introducing a:active {
+    .models .slide.xl-10 .xl-10-introducing a:active {
         box-shadow: 0 .5px .5px 0 rgba(0, 0, 0, .06)
     }
 
-    .backyard .slides a#intro-carousel-layout-name {
+    .models .slides a#intro-carousel-layout-name {
         opacity: .8;
         color: #000
     }
 
-    .backyard .slides .intro .intro-cta .not-in-ca a:hover {
+    .models .slides .intro .intro-cta .not-in-ca a:hover {
         opacity: .75;
         color: var(--color-black-60) !important
     }
 }
 
-.backyard .slides .intro {
+.models .slides .intro {
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
     gap: 22px;
@@ -4518,20 +4518,20 @@ h1 {
     overflow: hidden
 }
 
-.backyard .slides .intro-container {
+.models .slides .intro-container {
     position: relative;
     grid-column: col-start 2/span 10
 }
 
-.backyard .slides .intro h1,
-.backyard .slides .intro h2 br,
-.backyard .slides .intro h2 img {
+.models .slides .intro h1,
+.models .slides .intro h2 br,
+.models .slides .intro h2 img {
     user-select: none;
     -webkit-user-select: none
 }
 
-.backyard .slides .intro h1,
-.backyard .slides .intro h2 {
+.models .slides .intro h1,
+.models .slides .intro h2 {
     position: relative;
     font-size: 6.67vw;
     line-height: 96%;
@@ -4539,12 +4539,12 @@ h1 {
     letter-spacing: -.04em
 }
 
-.backyard .slides .intro-container h1,
-.backyard .slides .intro-container h2 {
+.models .slides .intro-container h1,
+.models .slides .intro-container h2 {
     white-space: nowrap
 }
 
-.backyard .slides .intro .intro-title {
+.models .slides .intro .intro-title {
     position: absolute;
     left: -200vw;
     max-width: 100vw;
@@ -4552,46 +4552,46 @@ h1 {
     white-space: wrap
 }
 
-.backyard .slides .intro h2 .part {
+.models .slides .intro h2 .part {
     display: inline;
     transition: color .3s;
     color: var(--color-black-10)
 }
 
-.backyard .slides .intro h2 .part.active {
+.models .slides .intro h2 .part.active {
     transition: color .6s;
     color: #000
 }
 
-.backyard .slides .intro h2 span[data-sentence].active {
+.models .slides .intro h2 span[data-sentence].active {
     transition: color 1s;
     color: #000
 }
 
-.segue.backyard .slides .intro h2 .part {
+.segue.models .slides .intro h2 .part {
     transition: none
 }
 
-.backyard .slides .intro h2 br.mobile {
+.models .slides .intro h2 br.mobile {
     display: none
 }
 
-.backyard .slides .intro h2 strong {
+.models .slides .intro h2 strong {
     color: #000;
     font-weight: 400
 }
 
-.backyard .slides .intro h2 .intro-elevation {
+.models .slides .intro h2 .intro-elevation {
     display: inline-block;
     position: relative;
     z-index: 0
 }
 
-.backyard .slides .intro h2 .intro-elevation.mobile {
+.models .slides .intro h2 .intro-elevation.mobile {
     display: none
 }
 
-.backyard .slides .intro h2 .intro-elevation img {
+.models .slides .intro h2 .intro-elevation img {
     position: absolute;
     top: -.71em;
     transform: translate3d(0, 0, 0);
@@ -4600,40 +4600,40 @@ h1 {
     height: .85em
 }
 
-.backyard .slides .intro h2 .intro-elevation img.loaded {
+.models .slides .intro h2 .intro-elevation img.loaded {
     opacity: 1
 }
 
-.backyard .slides .intro .intro-cta {
+.models .slides .intro .intro-cta {
     grid-column: col-start 2/span 10
 }
 
-.backyard .slides .intro .intro-cta .not-in-ca {
+.models .slides .intro .intro-cta .not-in-ca {
     display: flex;
     gap: 10px
 }
 
-.backyard .slides .intro .intro-cta .not-in-ca a {
+.models .slides .intro .intro-cta .not-in-ca a {
     cursor: pointer
 }
 
-.backyard .slides .intro .intro-cta .not-in-ca img {
+.models .slides .intro .intro-cta .not-in-ca img {
     position: relative;
     left: 5px
 }
 
-.backyard .as-seen-in-container {
+.models .as-seen-in-container {
     position: relative;
     grid-column: col-start 2/span 10
 }
 
 @media (max-width:768px) {
-    .backyard .slide.xl-10 .xl-10-introducing a {
+    .models .slide.xl-10 .xl-10-introducing a {
         padding: 10px 13px 11px 15px;
         white-space: nowrap
     }
 
-    .backyard .slide .intro-carousel-container {
+    .models .slide .intro-carousel-container {
         aspect-ratio: 375/521
     }
 
@@ -4647,34 +4647,34 @@ h1 {
         width: calc(100vw - 44px)
     }
 
-    .backyard .slides .intro-carousel {
+    .models .slides .intro-carousel {
         min-height: unset
     }
 
-    .backyard .slides .intro-carousel .desktop {
+    .models .slides .intro-carousel .desktop {
         display: none
     }
 
-    .backyard .slides .intro-carousel .mobile {
+    .models .slides .intro-carousel .mobile {
         display: unset
     }
 
-    .backyard .slides .intro-carousel h1 {
+    .models .slides .intro-carousel h1 {
         margin-bottom: 32px;
         text-align: center
     }
 
-    .backyard .slides .intro-carousel h1 br {
+    .models .slides .intro-carousel h1 br {
         display: unset
     }
 
-    .backyard .slides .intro {
+    .models .slides .intro {
         grid-template-columns: repeat(6, [col-start] 1fr);
         gap: 12px;
         padding: 0 24px
     }
 
-    .backyard .slides .intro-container {
+    .models .slides .intro-container {
         display: flex;
         grid-column: unset;
         flex-direction: column;
@@ -4683,47 +4683,47 @@ h1 {
         width: 100%
     }
 
-    .backyard .slides .intro h1,
-    .backyard .slides .intro h2 {
+    .models .slides .intro h1,
+    .models .slides .intro h2 {
         grid-column: col-start 1/span 6;
         margin: 0;
         font-size: 11vw
     }
 
-    .backyard .slides .intro h2 br {
+    .models .slides .intro h2 br {
         display: none
     }
 
-    .backyard .slides .intro h2 br.mobile {
+    .models .slides .intro h2 br.mobile {
         display: unset
     }
 
-    .backyard .slides .intro h2 .intro-elevation.mobile {
+    .models .slides .intro h2 .intro-elevation.mobile {
         display: inline-block
     }
 
-    .backyard .slides .intro h2 .intro-elevation.desktop {
+    .models .slides .intro h2 .intro-elevation.desktop {
         display: none
     }
 
-    .backyard .slides .intro .intro-cta {
+    .models .slides .intro .intro-cta {
         grid-column: col-start 1/span 6;
         margin: 0;
         padding-right: 48px
     }
 
-    .backyard .slides .intro .intro-cta .not-in-ca {
+    .models .slides .intro .intro-cta .not-in-ca {
         flex-direction: column;
         gap: 0
     }
 
-    .backyard .as-seen-in-container {
+    .models .as-seen-in-container {
         grid-column-start: 1;
         height: unset
     }
 }
 
-.backyard .as-seen-in {
+.models .as-seen-in {
     display: inline-flex;
     align-items: center;
     gap: 18px;
@@ -4740,7 +4740,7 @@ h1 {
     white-space: nowrap
 }
 
-.backyard .as-seen-in a {
+.models .as-seen-in a {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -4750,7 +4750,7 @@ h1 {
 }
 
 @media (max-width:768px) {
-    .backyard .as-seen-in {
+    .models .as-seen-in {
         position: static;
         gap: 10px;
         height: unset;
@@ -4763,25 +4763,25 @@ h1 {
         width: calc(100vw - 48px)
     }
 
-    .backyard .as-seen-in a {
+    .models .as-seen-in a {
         justify-content: space-between;
         gap: 0;
         width: 100%
     }
 
-    .backyard .as-seen-in .label {
+    .models .as-seen-in .label {
         width: 100%;
         line-height: 1;
         text-align: center
     }
 
-    .backyard .slides .as-seen-in img {
+    .models .slides .as-seen-in img {
         opacity: .8;
         width: auto;
         height: 3.75vw
     }
 
-    .backyard .slides .as-seen-in img:last-child {
+    .models .slides .as-seen-in img:last-child {
         height: 4.5vw
     }
 }
@@ -4831,7 +4831,7 @@ h1 {
 }
 
 .banner-showroom {
-    background-image: url('/assets/images/backyard/banner-showroom/banner-showroom-1440.webp');
+    background-image: url('/assets/images/models/banner-showroom/banner-showroom-1440.webp');
     background-position: center 20%;
     background-size: cover
 }
@@ -4883,28 +4883,28 @@ h1 {
     display: none
 }
 
-.backyard .slide.life-with-backyard {
+.models .slide.life-with-models {
     background: #263db5;
     aspect-ratio: 1440/750;
     height: auto;
     min-height: unset
 }
 
-.life-with-backyard>a {
+.life-with-models>a {
     display: block;
     position: relative;
     width: 100%;
     height: 100%
 }
 
-.life-with-backyard-video {
+.life-with-models-video {
     position: absolute;
     left: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width) * 2 + var(--modern-grid-column-gutter) * 2);
     aspect-ratio: 1920/1080;
     width: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width) * 10 + var(--modern-grid-column-gutter) * 9)
 }
 
-.life-with-backyard-video video {
+.life-with-models-video video {
     position: absolute;
     top: 0;
     left: 0;
@@ -4912,7 +4912,7 @@ h1 {
     height: 100%
 }
 
-.life-with-backyard h1 {
+.life-with-models h1 {
     display: flex;
     position: absolute;
     top: 21vw;
@@ -4926,7 +4926,7 @@ h1 {
     -webkit-user-select: none
 }
 
-.life-with-backyard h1 svg {
+.life-with-models h1 svg {
     display: none
 }
 
@@ -4939,11 +4939,11 @@ h1 {
         display: inline
     }
 
-    .backyard .slide.life-with-backyard {
+    .models .slide.life-with-models {
         aspect-ratio: 375/630
     }
 
-    .life-with-backyard-video {
+    .life-with-models-video {
         top: 62vw;
         left: var(--modern-grid-column-margin);
         aspect-ratio: 351/294;
@@ -4951,18 +4951,18 @@ h1 {
         height: auto
     }
 
-    .life-with-backyard h1 {
+    .life-with-models h1 {
         top: 8vw;
         align-items: flex-start;
         transform: none;
         font-size: 11.2vw !important
     }
 
-    .life-with-backyard h1 .life-with-backyard-title-pre {
+    .life-with-models h1 .life-with-models-title-pre {
         width: 50%
     }
 
-    .life-with-backyard h1 .life-with-backyard-title-post {
+    .life-with-models h1 .life-with-models-title-post {
         position: absolute;
         top: 1.1em;
         right: 0;
@@ -4970,13 +4970,13 @@ h1 {
         text-align: right
     }
 
-    .life-with-backyard h1 hr,
-    .life-with-backyard h1 span {
+    .life-with-models h1 hr,
+    .life-with-models h1 span {
         opacity: 0;
         pointer-events: none
     }
 
-    .life-with-backyard h1 svg {
+    .life-with-models h1 svg {
         display: block;
         position: absolute;
         aspect-ratio: 324/177;
@@ -4984,7 +4984,7 @@ h1 {
         height: auto
     }
 
-    .life-with-backyard h1 hr {
+    .life-with-models h1 hr {
         display: block;
         position: absolute;
         top: 1.6em;
@@ -4993,7 +4993,7 @@ h1 {
     }
 }
 
-.life-with-backyard h1 hr {
+.life-with-models h1 hr {
     flex: 1;
     transform: translateY(.12em);
     appearance: none;
@@ -5003,7 +5003,7 @@ h1 {
     padding: 0
 }
 
-.life-with-backyard-cta {
+.life-with-models-cta {
     display: flex;
     position: absolute;
     top: calc(100% - 16px);
@@ -5019,11 +5019,11 @@ h1 {
     -webkit-user-select: none
 }
 
-.life-with-backyard-cta img {
+.life-with-models-cta img {
     margin-right: 6px
 }
 
-.life-with-backyard-cta svg {
+.life-with-models-cta svg {
     position: relative;
     top: 1px
 }
@@ -5046,11 +5046,11 @@ h1 {
 }
 
 @media (max-width:768px) {
-    .life-with-backyard-cta {
+    .life-with-models-cta {
         line-height: 1.05 !important
     }
 
-    .life-with-backyard-cta svg {
+    .life-with-models-cta svg {
         top: 8px
     }
 
@@ -5177,16 +5177,16 @@ h1 {
 }
 
 @media (hover:hover) {
-    .life-with-backyard-cta:hover {
+    .life-with-models-cta:hover {
         background: #fff;
         color: rgba(0, 0, 0, .6)
     }
 
-    .life-with-backyard-cta:hover img {
+    .life-with-models-cta:hover img {
         filter: brightness(1.05)
     }
 
-    .life-with-backyard-cta:hover svg {
+    .life-with-models-cta:hover svg {
         opacity: .6
     }
 
@@ -5598,7 +5598,7 @@ h1 {
     overflow-x: hidden
 }
 
-.backyard .slide.four-simple-steps.desktop-hidden {
+.models .slide.four-simple-steps.desktop-hidden {
     display: none
 }
 
@@ -5622,7 +5622,7 @@ h1 {
         scrollbar-width: none
     }
 
-    .backyard .slide.four-simple-steps.desktop-hidden {
+    .models .slide.four-simple-steps.desktop-hidden {
         display: flex
     }
 
@@ -5835,7 +5835,7 @@ h1 {
         background-color: var(--color-blue-white-20)
     }
 
-    .backyard .slides .jealousy ul li:hover {
+    .models .slides .jealousy ul li:hover {
         color: rgba(255, 255, 255, .8)
     }
 }
@@ -5879,7 +5879,7 @@ h1 {
     width: 100%
 }
 
-.backyard .slide.a-lot-can-happen {
+.models .slide.a-lot-can-happen {
     position: relative;
     background: #fff;
     aspect-ratio: 1440/624;
@@ -5887,7 +5887,7 @@ h1 {
 }
 
 @media (max-width:1024px) {
-    .backyard .slide.a-lot-can-happen {
+    .models .slide.a-lot-can-happen {
         aspect-ratio: 1440/720
     }
 }
@@ -5903,7 +5903,7 @@ h1 {
         display: none
     }
 
-    .backyard .slide.a-lot-can-happen {
+    .models .slide.a-lot-can-happen {
         aspect-ratio: unset
     }
 
@@ -6049,14 +6049,14 @@ h1 {
     width: 100%
 }
 
-.backyard .slides .jealousy {
+.models .slides .jealousy {
     position: relative;
     flex-direction: column;
     aspect-ratio: 1440/870;
     min-height: unset
 }
 
-.backyard .slides .jealousy .column {
+.models .slides .jealousy .column {
     display: flex;
     align-items: start;
     z-index: 100;
@@ -6064,7 +6064,7 @@ h1 {
     color: #fff
 }
 
-.backyard .slides .jealousy .h3 {
+.models .slides .jealousy .h3 {
     grid-column: col-start 2/span 3;
     z-index: 2;
     transition: opacity 1s;
@@ -6078,29 +6078,29 @@ h1 {
         bottom: 30px
     }
 
-    .backyard.complete .slides .jealousy {
+    .models.complete .slides .jealousy {
         border-bottom: 64px solid transparent;
         background-position: right bottom;
         aspect-ratio: 375/456
     }
 
-    .backyard .slides .jealousy .column {
+    .models .slides .jealousy .column {
         padding: 30px 0 0 24px
     }
 
-    .backyard .slides .jealousy .h3 {
+    .models .slides .jealousy .h3 {
         grid-column: col-start 1/span 5;
         margin-top: .8em;
         font-size: clamp(42px, 3.3vw, 57px)
     }
 }
 
-.backyard .slides .jealousy.active .h3 {
+.models .slides .jealousy.active .h3 {
     opacity: 0;
     transition: opacity .5s
 }
 
-.backyard .slides .jealousy ul {
+.models .slides .jealousy ul {
     display: flex;
     position: absolute;
     right: var(--modern-grid-column-margin);
@@ -6121,7 +6121,7 @@ h1 {
     list-style-type: none
 }
 
-.backyard .slides .jealousy ul li {
+.models .slides .jealousy ul li {
     position: relative;
     cursor: pointer;
     border-radius: 14px;
@@ -6130,12 +6130,12 @@ h1 {
     white-space: nowrap
 }
 
-.backyard .slides .jealousy ul li:has(input:checked) {
+.models .slides .jealousy ul li:has(input:checked) {
     margin: 0;
     background: var(--color-blue)
 }
 
-.backyard .slides .jealousy ul li input {
+.models .slides .jealousy ul li input {
     position: absolute;
     top: 0;
     left: 0;
@@ -6146,7 +6146,7 @@ h1 {
     height: 100%
 }
 
-.backyard .slides .jealousy .images {
+.models .slides .jealousy .images {
     position: absolute;
     z-index: 0;
     cursor: pointer;
@@ -6155,7 +6155,7 @@ h1 {
     overflow-x: hidden
 }
 
-.backyard .slides .jealousy .images img {
+.models .slides .jealousy .images img {
     position: absolute;
     top: 0;
     left: 0;
@@ -6165,52 +6165,52 @@ h1 {
     object-fit: cover
 }
 
-.backyard .slides .jealousy ul:has(input[data-layout=studio]:checked)+.images img:nth-child(2),
-.backyard .slides .jealousy ul:has(input[data-layout=studio]:checked)+.images img:nth-child(3),
-.backyard .slides .jealousy ul:has(input[data-layout=studio]:checked)+.images img:nth-child(4),
-.backyard .slides .jealousy ul:has(input[data-layout=studio]:checked)+.images img:nth-child(5) {
+.models .slides .jealousy ul:has(input[data-layout=studio]:checked)+.images img:nth-child(2),
+.models .slides .jealousy ul:has(input[data-layout=studio]:checked)+.images img:nth-child(3),
+.models .slides .jealousy ul:has(input[data-layout=studio]:checked)+.images img:nth-child(4),
+.models .slides .jealousy ul:has(input[data-layout=studio]:checked)+.images img:nth-child(5) {
     opacity: 0;
     z-index: 1;
     transition: opacity 1s
 }
 
-.backyard .slides .jealousy ul:has(input[data-layout=onebed]:checked)+.images img:first-child,
-.backyard .slides .jealousy ul:has(input[data-layout=onebed]:checked)+.images img:nth-child(3),
-.backyard .slides .jealousy ul:has(input[data-layout=onebed]:checked)+.images img:nth-child(4),
-.backyard .slides .jealousy ul:has(input[data-layout=onebed]:checked)+.images img:nth-child(5) {
+.models .slides .jealousy ul:has(input[data-layout=onebed]:checked)+.images img:first-child,
+.models .slides .jealousy ul:has(input[data-layout=onebed]:checked)+.images img:nth-child(3),
+.models .slides .jealousy ul:has(input[data-layout=onebed]:checked)+.images img:nth-child(4),
+.models .slides .jealousy ul:has(input[data-layout=onebed]:checked)+.images img:nth-child(5) {
     opacity: 0;
     z-index: 1;
     transition: opacity 1s
 }
 
-.backyard .slides .jealousy ul:has(input[data-layout=twobed]:checked)+.images img:first-child,
-.backyard .slides .jealousy ul:has(input[data-layout=twobed]:checked)+.images img:nth-child(2),
-.backyard .slides .jealousy ul:has(input[data-layout=twobed]:checked)+.images img:nth-child(4),
-.backyard .slides .jealousy ul:has(input[data-layout=twobed]:checked)+.images img:nth-child(5) {
+.models .slides .jealousy ul:has(input[data-layout=twobed]:checked)+.images img:first-child,
+.models .slides .jealousy ul:has(input[data-layout=twobed]:checked)+.images img:nth-child(2),
+.models .slides .jealousy ul:has(input[data-layout=twobed]:checked)+.images img:nth-child(4),
+.models .slides .jealousy ul:has(input[data-layout=twobed]:checked)+.images img:nth-child(5) {
     opacity: 0;
     z-index: 1;
     transition: opacity 1s
 }
 
-.backyard .slides .jealousy ul:has(input[data-layout=xl]:checked)+.images img:first-child,
-.backyard .slides .jealousy ul:has(input[data-layout=xl]:checked)+.images img:nth-child(2),
-.backyard .slides .jealousy ul:has(input[data-layout=xl]:checked)+.images img:nth-child(3),
-.backyard .slides .jealousy ul:has(input[data-layout=xl]:checked)+.images img:nth-child(5) {
+.models .slides .jealousy ul:has(input[data-layout=xl]:checked)+.images img:first-child,
+.models .slides .jealousy ul:has(input[data-layout=xl]:checked)+.images img:nth-child(2),
+.models .slides .jealousy ul:has(input[data-layout=xl]:checked)+.images img:nth-child(3),
+.models .slides .jealousy ul:has(input[data-layout=xl]:checked)+.images img:nth-child(5) {
     opacity: 0;
     z-index: 1;
     transition: opacity 1s
 }
 
-.backyard .slides .jealousy ul:has(input[data-layout=xl-10]:checked)+.images img:first-child,
-.backyard .slides .jealousy ul:has(input[data-layout=xl-10]:checked)+.images img:nth-child(2),
-.backyard .slides .jealousy ul:has(input[data-layout=xl-10]:checked)+.images img:nth-child(3),
-.backyard .slides .jealousy ul:has(input[data-layout=xl-10]:checked)+.images img:nth-child(4) {
+.models .slides .jealousy ul:has(input[data-layout=xl-10]:checked)+.images img:first-child,
+.models .slides .jealousy ul:has(input[data-layout=xl-10]:checked)+.images img:nth-child(2),
+.models .slides .jealousy ul:has(input[data-layout=xl-10]:checked)+.images img:nth-child(3),
+.models .slides .jealousy ul:has(input[data-layout=xl-10]:checked)+.images img:nth-child(4) {
     opacity: 0;
     z-index: 1;
     transition: opacity 1s
 }
 
-.backyard .slide.bento {
+.models .slide.bento {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 3px;
@@ -6239,20 +6239,20 @@ h1 {
 }
 
 @media (max-width:768px) {
-    .backyard .slides .jealousy ul {
+    .models .slides .jealousy ul {
         right: 3px;
         bottom: -44px
     }
 
-    .backyard .slides .jealousy ul li {
+    .models .slides .jealousy ul li {
         padding: 8px 12px
     }
 
-    .backyard .slides .jealousy .images img {
+    .models .slides .jealousy .images img {
         width: 130%
     }
 
-    .backyard .slide.bento {
+    .models .slide.bento {
         box-sizing: border-box
     }
 
@@ -6754,15 +6754,15 @@ input:checked+.bento-details-card-icon div:last-child {
     width: calc(min(100vw, var(--center-column-max-width)) * 1.85)
 }
 
-.backyard-compare {
+.models-compare {
     background: #fff
 }
 
-.backyard-compare table {
+.models-compare table {
     width: calc(100% + 40px)
 }
 
-.backyard-compare-collapsible h2>* {
+.models-compare-collapsible h2>* {
     display: none
 }
 
@@ -6779,57 +6779,57 @@ input:checked+.bento-details-card-icon div:last-child {
         width: calc(min(100vw, var(--center-column-max-width)) * 2)
     }
 
-    .backyard-compare-collapsible h2>* {
+    .models-compare-collapsible h2>* {
         display: unset
     }
 
-    .backyard-compare table {
+    .models-compare table {
         width: 100%
     }
 
-    .backyard-compare table tr td {
+    .models-compare table tr td {
         box-sizing: border-box;
         width: 50%
     }
 
-    .backyard-compare table tr td:nth-child(3n+3) {
+    .models-compare table tr td:nth-child(3n+3) {
         display: none
     }
 
-    .backyard-compare table tr td:first-child {
+    .models-compare table tr td:first-child {
         padding: 0 12px 0 0
     }
 
-    .backyard-compare table tr td:nth-child(2) {
+    .models-compare table tr td:nth-child(2) {
         padding: 0 0 0 12px
     }
 
-    .backyard-compare-collapsible>.modern-grid:first-child .m-column-6 {
+    .models-compare-collapsible>.modern-grid:first-child .m-column-6 {
         border-top: 1px solid #000;
         padding-top: 8px
     }
 
-    .backyard-compare-collapsible .backyard-compare-row {
+    .models-compare-collapsible .models-compare-row {
         display: none
     }
 
-    .backyard-compare-collapsible h2+.spacer-50 {
+    .models-compare-collapsible h2+.spacer-50 {
         height: 24px !important
     }
 
-    .backyard-compare-collapsible:has(input:checked) .backyard-compare-row {
+    .models-compare-collapsible:has(input:checked) .models-compare-row {
         display: grid
     }
 
-    .backyard-compare-collapsible:has(input:checked) h2+.spacer-50 {
+    .models-compare-collapsible:has(input:checked) h2+.spacer-50 {
         height: 50px !important
     }
 
-    .backyard-compare-collapsible h2 {
+    .models-compare-collapsible h2 {
         position: relative
     }
 
-    .backyard-compare-collapsible h2 input {
+    .models-compare-collapsible h2 input {
         position: absolute;
         top: 0;
         left: 0;
@@ -6840,7 +6840,7 @@ input:checked+.bento-details-card-icon div:last-child {
         height: 100%
     }
 
-    .backyard-compare-collapsible h2 img {
+    .models-compare-collapsible h2 img {
         position: absolute;
         top: 60%;
         right: 0;
@@ -6848,16 +6848,16 @@ input:checked+.bento-details-card-icon div:last-child {
         z-index: 0
     }
 
-    .backyard-compare-collapsible:has(input:checked) h2 img {
+    .models-compare-collapsible:has(input:checked) h2 img {
         transform: translateY(-50%) scaleY(1)
     }
 }
 
-.backyard-compare-row-hidden {
+.models-compare-row-hidden {
     display: none
 }
 
-.backyard-compare-row-title {
+.models-compare-row-title {
     border-top: 1px solid rgba(0, 0, 0, .2);
     padding-top: 5px;
     width: calc(100% - 20px);
@@ -6876,22 +6876,22 @@ input:checked+.bento-details-card-icon div:last-child {
         width: 320vw !important
     }
 
-    .backyard-compare-row-title {
+    .models-compare-row-title {
         width: 100%
     }
 }
 
-.backyard-compare-text {
+.models-compare-text {
     width: 75%
 }
 
 @media (max-width:768px) {
-    .backyard-compare-text {
+    .models-compare-text {
         width: 100%
     }
 }
 
-.backyard-compare-text-empty {
+.models-compare-text-empty {
     position: relative;
     top: .8em;
     appearance: none;
@@ -6902,14 +6902,14 @@ input:checked+.bento-details-card-icon div:last-child {
     width: calc(100% - 40px)
 }
 
-.backyard-compare-header {
+.models-compare-header {
     position: sticky;
     top: -10px;
     z-index: 1000;
     background: #fff
 }
 
-.backyard-compare-header img {
+.models-compare-header img {
     transform: translateX(-11%) scale(.8);
     transform-origin: bottom left;
     transition: transform .2s ease-out;
@@ -6920,26 +6920,26 @@ input:checked+.bento-details-card-icon div:last-child {
 }
 
 @media (max-width:768px) {
-    .backyard-compare-header {
+    .models-compare-header {
         top: -10px
     }
 
-    .backyard-compare-header img {
+    .models-compare-header img {
         transform: translateX(-4%) scale(.8);
         height: auto
     }
 }
 
-.backyard-compare-header-sticky img {
+.models-compare-header-sticky img {
     transform: translateX(-10%) translateY(10px) scale(.7);
     transform-origin: bottom left
 }
 
-.backyard-compare-header .modern-grid {
+.models-compare-header .modern-grid {
     background: #fff
 }
 
-.backyard-compare-header-shadow {
+.models-compare-header-shadow {
     position: absolute;
     bottom: 0;
     left: 54%;
@@ -6955,27 +6955,27 @@ input:checked+.bento-details-card-icon div:last-child {
 }
 
 @media (max-width:768px) {
-    .backyard-compare-header-sticky img {
+    .models-compare-header-sticky img {
         transform: translateX(-4%) translateY(10px) scale(.8)
     }
 
-    .backyard-compare-header-shadow {
+    .models-compare-header-shadow {
         left: 50%;
         transform: translateX(-50%);
         width: 100%
     }
 }
 
-.backyard-compare-header-sticky .backyard-compare-header-shadow {
+.models-compare-header-sticky .models-compare-header-shadow {
     opacity: 1
 }
 
-.backyard-compare-header td {
+.models-compare-header td {
     position: relative;
     padding-right: 24px
 }
 
-.backyard-compare-header select {
+.models-compare-header select {
     transform: translateX(-18px);
     appearance: none;
     box-sizing: border-box;
@@ -6991,20 +6991,20 @@ input:checked+.bento-details-card-icon div:last-child {
     -webkit-user-select: none
 }
 
-.backyard-compare-header-sticky select {
+.models-compare-header-sticky select {
     font-size: clamp(16px, 1.25vw, 18px) !important
 }
 
-.backyard-compare-header select:hover {
+.models-compare-header select:hover {
     background: rgba(0, 0, 0, .015)
 }
 
-.backyard-compare-header select:focus {
+.models-compare-header select:focus {
     outline: var(--color-blue) 2px solid;
     background: #fff
 }
 
-.backyard-compare-header svg {
+.models-compare-header svg {
     position: absolute;
     right: 62px;
     bottom: 21px;
@@ -7012,49 +7012,49 @@ input:checked+.bento-details-card-icon div:last-child {
 }
 
 @media (max-width:768px) {
-    .backyard-compare-header select {
+    .models-compare-header select {
         transform: none;
         padding: 10px 15px
     }
 
-    .backyard-compare-header-sticky select {
+    .models-compare-header-sticky select {
         font-size: 14px !important
     }
 
-    .backyard-compare-header svg {
+    .models-compare-header svg {
         right: 12px;
         bottom: 16px;
         transform: scale(.8)
     }
 
-    .backyard-compare-header td:first-child svg {
+    .models-compare-header td:first-child svg {
         right: 24px
     }
 }
 
-.backyard-compare-header-sticky svg {
+.models-compare-header-sticky svg {
     bottom: 19px
 }
 
-.backyard-compare-cost {
+.models-compare-cost {
     display: inline-block
 }
 
 @media (max-width:768px) {
-    .backyard-compare-header-sticky svg {
+    .models-compare-header-sticky svg {
         bottom: 15px
     }
 
-    .backyard-compare-header .modern-grid {
+    .models-compare-header .modern-grid {
         overflow: hidden
     }
 
-    .backyard-compare-cost {
+    .models-compare-cost {
         display: block
     }
 }
 
-.backyard-compare-cost-divider {
+.models-compare-cost-divider {
     appearance: none;
     margin: 0;
     border: none;
@@ -7062,12 +7062,12 @@ input:checked+.bento-details-card-icon div:last-child {
     padding: 0
 }
 
-.backyard-compare-cost-formula {
+.models-compare-cost-formula {
     display: flex;
     padding-right: 24px
 }
 
-.backyard-compare-cost-component {
+.models-compare-cost-component {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7075,18 +7075,18 @@ input:checked+.bento-details-card-icon div:last-child {
 }
 
 @media (max-width:768px) {
-    .backyard-compare-cost-formula {
+    .models-compare-cost-formula {
         padding-right: 12px;
         width: 100%
     }
 
-    .backyard-compare-cost-component {
+    .models-compare-cost-component {
         position: relative;
         gap: 0;
         padding-bottom: 1.5em
     }
 
-    .backyard-compare-cost-component-label {
+    .models-compare-cost-component-label {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -7094,29 +7094,29 @@ input:checked+.bento-details-card-icon div:last-child {
     }
 }
 
-.backyard-compare-cost-component-value {
+.models-compare-cost-component-value {
     border-radius: 6px;
     background: rgba(0, 0, 0, .06);
     padding: 6px 12px
 }
 
 @media (max-width:768px) {
-    .backyard-compare-cost-component-value {
+    .models-compare-cost-component-value {
         padding: 4px 6px
     }
 }
 
-.backyard-compare-cost-plus {
+.models-compare-cost-plus {
     padding: 6px 8px
 }
 
 @media (max-width:768px) {
-    .backyard-compare-cost-plus {
+    .models-compare-cost-plus {
         padding: 4px
     }
 }
 
-.backyard-compare-unit-dimensions-note {
+.models-compare-unit-dimensions-note {
     display: inline-block;
     margin-top: 12px;
     border-top: 1px solid rgba(0, 0, 0, .1);
@@ -7124,28 +7124,28 @@ input:checked+.bento-details-card-icon div:last-child {
     padding-right: 24px
 }
 
-.backyard-compare-floorplan {
+.models-compare-floorplan {
     display: inline-block;
     position: relative
 }
 
-.backyard-compare-floorplan>img {
+.models-compare-floorplan>img {
     display: block;
     height: auto
 }
 
-.backyard-compare-floorplan-dimension {
+.models-compare-floorplan-dimension {
     position: absolute
 }
 
-.backyard-compare-floorplan-dimension-width {
+.models-compare-floorplan-dimension-width {
     bottom: -16px;
     border-top: 1px solid rgba(0, 0, 0, .1);
     width: 100%;
     height: 1px
 }
 
-.backyard-compare-floorplan-dimension-height {
+.models-compare-floorplan-dimension-height {
     top: 0;
     right: -16px;
     border-left: 1px solid rgba(0, 0, 0, .1);
@@ -7153,49 +7153,49 @@ input:checked+.bento-details-card-icon div:last-child {
     height: 100%
 }
 
-.backyard-compare-floorplan-dimension img {
+.models-compare-floorplan-dimension img {
     position: absolute
 }
 
-.backyard-compare-floorplan-dimension-width img:first-of-type {
+.models-compare-floorplan-dimension-width img:first-of-type {
     top: 0;
     left: 0;
     transform: translateY(-55%) scaleX(-1)
 }
 
-.backyard-compare-floorplan-dimension-width img:last-of-type {
+.models-compare-floorplan-dimension-width img:last-of-type {
     top: 0;
     right: 0;
     transform: translateY(-55%)
 }
 
-.backyard-compare-floorplan-dimension-height img:first-of-type {
+.models-compare-floorplan-dimension-height img:first-of-type {
     top: 0;
     left: 0;
     transform: translateX(-55%)
 }
 
-.backyard-compare-floorplan-dimension-height img:last-of-type {
+.models-compare-floorplan-dimension-height img:last-of-type {
     bottom: 0;
     left: 0;
     transform: translateX(-55%) scaleY(-1)
 }
 
-.backyard-compare-floorplan-dimension-width span {
+.models-compare-floorplan-dimension-width span {
     position: absolute;
     top: 4px;
     left: 50%;
     transform: translateX(-50%)
 }
 
-.backyard-compare-floorplan-dimension-height span {
+.models-compare-floorplan-dimension-height span {
     position: absolute;
     top: 50%;
     left: 8px;
     transform: translateY(-50%)
 }
 
-.backyard-compare-colors-note {
+.models-compare-colors-note {
     width: 66%
 }
 
@@ -7203,27 +7203,27 @@ body.faq {
     background: var(--color-biege)
 }
 
-.backyard .backyard-faq .row {
+.models .models-faq .row {
     height: unset;
     min-height: unset
 }
 
-.backyard .backyard-faq .slide {
+.models .models-faq .slide {
     flex-direction: column;
     min-height: unset;
     overflow: unset
 }
 
-.backyard .backyard-faq .faq-top {
+.models .models-faq .faq-top {
     display: flex;
     flex-direction: column
 }
 
-.backyard .backyard-faq .faq-top p {
+.models .models-faq .faq-top p {
     margin-top: .5em
 }
 
-.backyard .backyard-faq hr {
+.models .models-faq hr {
     margin: 96px 0;
     border: none;
     border-top: 1px solid rgba(0, 0, 0, .1);
@@ -7242,7 +7242,7 @@ body.faq {
     transform-origin: 0 100%
 }
 
-.backyard .backyard-faq .sidebar .menu {
+.models .models-faq .sidebar .menu {
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -7251,7 +7251,7 @@ body.faq {
     list-style-type: none
 }
 
-.backyard .backyard-faq .sidebar .menu li {
+.models .models-faq .sidebar .menu li {
     cursor: pointer;
     margin-left: -18px;
     border-radius: 12px;
@@ -7279,19 +7279,19 @@ body.faq {
         color: var(--color-black-60)
     }
 
-    .backyard .backyard-faq .sidebar .menu li:hover {
+    .models .models-faq .sidebar .menu li:hover {
         box-shadow: 0 .5px 2px 0 rgba(0, 0, 0, .12);
         background: var(--color-black-4);
         color: #000
     }
 
-    .backyard .backyard-faq .sidebar .menu li.faq-menu-still-questions:hover {
+    .models .models-faq .sidebar .menu li.faq-menu-still-questions:hover {
         box-shadow: 0 .5px 1px 0 rgba(0, 0, 0, .12);
         background: #fff
     }
 }
 
-.backyard .backyard-faq .sidebar .menu li.faq-menu-still-questions {
+.models .models-faq .sidebar .menu li.faq-menu-still-questions {
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -7302,18 +7302,18 @@ body.faq {
     padding: 14px 18px
 }
 
-.backyard .backyard-faq .sidebar .menu li.active {
+.models .models-faq .sidebar .menu li.active {
     background: #000;
     color: #fff
 }
 
-.backyard .backyard-faq .faq-group h2 {
+.models .models-faq .faq-group h2 {
     position: relative;
     margin-bottom: 1em;
     pointer-events: none
 }
 
-.backyard .backyard-faq .faq-group h2 input {
+.models .models-faq .faq-group h2 input {
     display: none;
     position: absolute;
     top: 0;
@@ -7324,11 +7324,11 @@ body.faq {
     height: 100%
 }
 
-.backyard .backyard-faq .faq-group .question {
+.models .models-faq .faq-group .question {
     width: 80%
 }
 
-.backyard .backyard-faq .faq-group .question .bubble {
+.models .models-faq .faq-group .question .bubble {
     display: inline-block;
     box-sizing: border-box;
     border-radius: 18px;
@@ -7339,51 +7339,51 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-compare-unit-dimensions-note {
+    .models-compare-unit-dimensions-note {
         margin-top: 8px;
         padding-top: 4px;
         padding-right: 0
     }
 
-    .backyard-compare-floorplan>img {
+    .models-compare-floorplan>img {
         width: 75px;
         height: auto
     }
 
-    td[data-layout=xl-10] .backyard-compare-floorplan>img,
-    td[data-layout=xl-8] .backyard-compare-floorplan>img {
+    td[data-layout=xl-10] .models-compare-floorplan>img,
+    td[data-layout=xl-8] .models-compare-floorplan>img {
         width: 125px
     }
 
-    .backyard-compare-floorplan-dimension-width {
+    .models-compare-floorplan-dimension-width {
         bottom: -11px
     }
 
-    .backyard-compare-floorplan-dimension-height {
+    .models-compare-floorplan-dimension-height {
         right: -11px
     }
 
-    .backyard-compare-colors-note {
+    .models-compare-colors-note {
         width: 100%
     }
 
-    .backyard-compare .specs-content-colors {
+    .models-compare .specs-content-colors {
         gap: 3px
     }
 
-    .backyard-compare table tr td:nth-child(2) .specs-content-colors-dark-bronze div {
+    .models-compare table tr td:nth-child(2) .specs-content-colors-dark-bronze div {
         left: calc(50% - 12px)
     }
 
-    .backyard .backyard-faq .faq-top {
+    .models .models-faq .faq-top {
         margin: 36px 0 60px
     }
 
-    .backyard .backyard-faq .slide .row {
+    .models .models-faq .slide .row {
         height: unset
     }
 
-    .backyard .backyard-faq hr {
+    .models .models-faq hr {
         margin: 36px 0;
         border-top: 0
     }
@@ -7393,62 +7393,62 @@ body.faq {
         position: static
     }
 
-    .backyard .backyard-faq .sidebar .menu {
+    .models .models-faq .sidebar .menu {
         display: none
     }
 
-    .backyard .backyard-faq .faq-group {
-        background-image: url("/assets/images/backyard/faq-up.svg");
+    .models .models-faq .faq-group {
+        background-image: url("/assets/images/models/faq-up.svg");
         background-size: 0 0
     }
 
-    .backyard .backyard-faq .faq-group h2 {
+    .models .models-faq .faq-group h2 {
         margin-bottom: 18px;
         border-top: 1px solid rgba(0, 0, 0, .1);
-        background-image: url("/assets/images/backyard/faq-down.svg");
+        background-image: url("/assets/images/models/faq-down.svg");
         background-position: right 75%;
         background-repeat: no-repeat;
         padding-top: 18px;
         pointer-events: all
     }
 
-    .backyard .backyard-faq .faq-group h2:has(input:checked) {
-        background-image: url("/assets/images/backyard/faq-up.svg")
+    .models .models-faq .faq-group h2:has(input:checked) {
+        background-image: url("/assets/images/models/faq-up.svg")
     }
 
-    .backyard .backyard-faq .faq-group h2 input {
+    .models .models-faq .faq-group h2 input {
         display: block
     }
 
-    .backyard .backyard-faq .faq-group .items {
+    .models .models-faq .faq-group .items {
         display: none
     }
 
-    .backyard .backyard-faq .faq-group:has(input:checked) .items {
+    .models .models-faq .faq-group:has(input:checked) .items {
         display: block
     }
 
-    .backyard .backyard-faq .faq-group .question {
+    .models .models-faq .faq-group .question {
         width: 100%
     }
 
-    .backyard .backyard-faq .faq-group .question .bubble {
+    .models .models-faq .faq-group .question .bubble {
         border-radius: 12px;
         padding: 14px 18px;
         width: calc(var(--modern-grid-column-width) * 5 + var(--modern-grid-column-gutter) * 4)
     }
 
-    .backyard .backyard-faq .faq-group .answer {
+    .models .models-faq .faq-group .answer {
         width: calc(var(--modern-grid-column-width) * 5 + var(--modern-grid-column-gutter) * 4)
     }
 }
 
-.backyard .backyard-faq .faq-group .answer {
+.models .models-faq .faq-group .answer {
     margin-left: calc(var(--modern-grid-column-width) + var(--modern-grid-column-gutter));
     width: calc(var(--modern-grid-column-width) * 5 + var(--modern-grid-column-gutter) * 4)
 }
 
-.backyard .backyard-faq .faq-group .answer .bubble {
+.models .models-faq .faq-group .answer .bubble {
     box-shadow: 0 .5px 2px 0 rgba(0, 0, 0, .12);
     border-radius: 18px;
     background: #fff;
@@ -7456,31 +7456,31 @@ body.faq {
     font-family: regola-book, sans-serif
 }
 
-.backyard .backyard-faq .faq-group .answer .bubble p {
+.models .models-faq .faq-group .answer .bubble p {
     margin-bottom: 1em
 }
 
-.backyard .backyard-faq .faq-group .answer .bubble p:last-child {
+.models .models-faq .faq-group .answer .bubble p:last-child {
     margin-bottom: 0
 }
 
-.backyard .backyard-faq .faq-group .answer .bubble ul {
+.models .models-faq .faq-group .answer .bubble ul {
     margin-left: 0;
     padding-left: 2ch;
     list-style-image: url("/assets/images/bullet.svg")
 }
 
-.backyard .backyard-faq .faq-group .answer .bubble ul ul {
+.models .models-faq .faq-group .answer .bubble ul ul {
     margin-top: .5em;
     margin-bottom: 1em;
     padding-left: 36px
 }
 
-.backyard .backyard-faq .faq-group .answer .bubble ul li {
+.models .models-faq .faq-group .answer .bubble ul li {
     margin-bottom: .5em
 }
 
-.backyard .backyard-faq .faq-group .answer .bubble ul li:last-child {
+.models .models-faq .faq-group .answer .bubble ul li:last-child {
     margin-bottom: 0
 }
 
@@ -7511,16 +7511,16 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard .backyard-faq .faq-group .answer .bubble {
+    .models .models-faq .faq-group .answer .bubble {
         border-radius: 12px;
         padding: 14px 18px
     }
 
-    .backyard .backyard-faq .faq-group .answer .bubble ul {
+    .models .models-faq .faq-group .answer .bubble ul {
         padding-left: 2.3ch
     }
 
-    .backyard .backyard-faq .spacer {
+    .models .models-faq .spacer {
         height: 60px
     }
 
@@ -7531,7 +7531,7 @@ body.faq {
     }
 }
 
-.backyard .footer-nav ol {
+.models .footer-nav ol {
     display: block
 }
 
@@ -7840,131 +7840,131 @@ body.faq {
     filter: invert(100%)
 }
 
-.how-it-works {
+.about {
     background: var(--color-biege)
 }
 
-.how-it-works-step {
+.about-step {
     margin-bottom: 6px
 }
 
-.how-it-works-step-1 {
+.about-step-1 {
     height: 270px
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-1 {
+    .about-step-1 {
         height: 300px
     }
 }
 
-.how-it-works-step-2 {
+.about-step-2 {
     height: 250px
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-2 {
+    .about-step-2 {
         height: 185px
     }
 }
 
-.how-it-works-step-3 {
+.about-step-3 {
     height: 425px
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-3 {
+    .about-step-3 {
         height: 370px
     }
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-3 {
+    .about-step-3 {
         height: 535px
     }
 }
 
-.how-it-works-step-4 {
+.about-step-4 {
     height: calc(min(100vw, var(--center-column-max-width)) * .375)
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-4 {
+    .about-step-4 {
         height: 305px
     }
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-4 {
+    .about-step-4 {
         height: 520px
     }
 }
 
-.how-it-works-step-5-2 {
+.about-step-5-2 {
     height: 120px
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-5-2 {
+    .about-step-5-2 {
         height: 85px
     }
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-5-2 {
+    .about-step-5-2 {
         height: 70px
     }
 }
 
-.how-it-works-step-6 {
+.about-step-6 {
     height: 630px
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-6 {
+    .about-step-6 {
         height: 435px
     }
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-6 {
+    .about-step-6 {
         height: 420px
     }
 }
 
-.how-it-works-step-7 {
+.about-step-7 {
     height: 385px
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-7 {
+    .about-step-7 {
         height: 250px
     }
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-7 {
+    .about-step-7 {
         height: 500px
     }
 }
 
-.how-it-works-step-9 {
+.about-step-9 {
     height: calc(min(100vw, var(--center-column-max-width)) * .375)
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-9 {
+    .about-step-9 {
         height: 315px
     }
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-9 {
+    .about-step-9 {
         height: 560px
     }
 }
 
-.how-it-works-step-bullet {
+.about-step-bullet {
     position: absolute;
     top: 0;
     left: 50%;
@@ -7976,13 +7976,13 @@ body.faq {
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-bullet {
+    .about-step-bullet {
         width: 12px;
         height: 12px
     }
 }
 
-.how-it-works-step-line {
+.about-step-line {
     position: absolute;
     top: 20px;
     left: 50%;
@@ -7994,18 +7994,18 @@ body.faq {
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-line {
+    .about-step-line {
         top: 18px;
         width: 5px
     }
 }
 
-.how-it-works-step-5-2 .how-it-works-step-line {
+.about-step-5-2 .about-step-line {
     top: 0;
     height: 100%
 }
 
-.how-it-works-step-8 {
+.about-step-8 {
     position: relative;
     padding-top: calc(min(var(--center-column-max-width), 100vw) * .13);
     aspect-ratio: 1440/610;
@@ -8013,32 +8013,32 @@ body.faq {
     height: auto
 }
 
-.how-it-works-step-8 .how-it-works-step-line {
+.about-step-8 .about-step-line {
     top: unset;
     bottom: 0;
     height: calc(min(var(--center-column-max-width), 100vw) * .1)
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-8 .how-it-works-step-line {
+    .about-step-8 .about-step-line {
         height: 95px
     }
 }
 
 @media (max-width:768px) {
-    .how-it-works-step-8 {
+    .about-step-8 {
         padding-bottom: 35vw;
         aspect-ratio: unset
     }
 
-    .how-it-works-step-8 .how-it-works-step-line {
+    .about-step-8 .about-step-line {
         position: absolute;
         left: 50%;
         height: 20vw
     }
 }
 
-.how-it-works-step-8-video {
+.about-step-8-video {
     position: absolute;
     top: calc(min(var(--center-column-max-width), 100vw) * .04);
     left: calc(min(var(--center-column-max-width), 100vw) * .48);
@@ -8049,19 +8049,19 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .how-it-works-step-8-video {
+    .about-step-8-video {
         position: static;
         margin: 16px var(--modern-grid-column-margin);
         width: calc(100vw - var(--modern-grid-column-margin) * 2)
     }
 
-    .how-it-works-welcome img {
+    .about-welcome img {
         aspect-ratio: 375/472;
         object-fit: cover
     }
 }
 
-.how-it-works-step-8-video-expand {
+.about-step-8-video-expand {
     display: flex;
     position: absolute;
     right: 6px;
@@ -8079,12 +8079,12 @@ body.faq {
     pointer-events: none
 }
 
-.how-it-works-step-8:has(video) .how-it-works-step-8-video-expand {
+.about-step-8:has(video) .about-step-8-video-expand {
     transform: none;
     opacity: 1
 }
 
-.how-it-works-step-8-video video {
+.about-step-8-video video {
     display: block;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .16);
     border-radius: 4px;
@@ -8094,7 +8094,7 @@ body.faq {
     object-fit: cover
 }
 
-.how-it-works-step-label {
+.about-step-label {
     display: flex;
     position: absolute;
     top: 215px;
@@ -8110,77 +8110,77 @@ body.faq {
     white-space: nowrap
 }
 
-.how-it-works-step-3 .how-it-works-step-label {
+.about-step-3 .about-step-label {
     top: 250px
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-3 .how-it-works-step-label {
+    .about-step-3 .about-step-label {
         top: 450px
     }
 }
 
-.how-it-works-step-4 .how-it-works-step-label {
+.about-step-4 .about-step-label {
     top: unset;
     bottom: calc(min(100vw, var(--center-column-max-width)) * .075)
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-4 .how-it-works-step-label {
+    .about-step-4 .about-step-label {
         top: 425px
     }
 }
 
-.how-it-works-step-6 .how-it-works-step-label {
+.about-step-6 .about-step-label {
     top: 440px
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-6 .how-it-works-step-label {
+    .about-step-6 .about-step-label {
         top: 280px
     }
 }
 
-.how-it-works-step-9 .how-it-works-step-label {
+.about-step-9 .about-step-label {
     top: unset;
     bottom: calc(min(100vw, var(--center-column-max-width)) * .075)
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-9 .how-it-works-step-label {
+    .about-step-9 .about-step-label {
         top: 200px
     }
 
-    .how-it-works-step-content {
+    .about-step-content {
         top: -11px !important
     }
 }
 
-.how-it-works-step-content {
+.about-step-content {
     width: 240px;
     position: relative;
     z-index: 1
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-9 .how-it-works-step-label {
+    .about-step-9 .about-step-label {
         top: 470px
     }
 
-    .how-it-works-step-content {
+    .about-step-content {
         top: -10px !important;
         width: 150px
     }
 }
 
-.how-it-works-step-right .how-it-works-step-content {
+.about-step-right .about-step-content {
     position: relative;
     top: -18px;
     left: 50%;
     padding-left: 28px
 }
 
-.how-it-works-step-left .how-it-works-step-content {
+.about-step-left .about-step-content {
     display: inline-block;
     position: relative;
     top: -18px;
@@ -8188,12 +8188,12 @@ body.faq {
     text-align: right
 }
 
-.how-it-works-cta {
+.about-cta {
     background: #263db5
 }
 
-.how-it-works-cta a,
-.how-it-works-cta button {
+.about-cta a,
+.about-cta button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8203,49 +8203,49 @@ body.faq {
     width: 160px
 }
 
-.how-it-works-cta a svg {
+.about-cta a svg {
     position: relative;
     top: 1.5px
 }
 
-.how-it-works-cta .button-rounded-white {
+.about-cta .button-rounded-white {
     background: #fff
 }
 
 @media (hover:hover) {
-    .how-it-works-cta a:hover {
+    .about-cta a:hover {
         background: #000 !important;
         color: rgba(255, 255, 255, .8) !important
     }
 
-    .how-it-works-cta .button-rounded-white:hover {
+    .about-cta .button-rounded-white:hover {
         background: #fff !important;
         color: rgba(0, 0, 0, .6) !important
     }
 
-    .how-it-works-cta a:hover svg {
+    .about-cta a:hover svg {
         opacity: .8
     }
 
-    .backyard-models-floorplan-tour-button button:hover {
+    .models-models-floorplan-tour-button button:hover {
         color: rgba(0, 0, 0, .4)
     }
 
-    .backyard-models-floorplan-tour-button button:hover svg {
+    .models-models-floorplan-tour-button button:hover svg {
         opacity: .8
     }
 }
 
-.how-it-works h3 {
+.about h3 {
     position: relative;
     z-index: 1
 }
 
-.how-it-works-step {
+.about-step {
     position: relative
 }
 
-.how-it-works-step-content-media {
+.about-step-content-media {
     position: absolute;
     z-index: 0;
     box-shadow: 0 .5px 2px 0 rgba(0, 0, 0, .12);
@@ -8254,19 +8254,19 @@ body.faq {
     overflow: hidden
 }
 
-.how-it-works-step-content-media video {
+.about-step-content-media video {
     display: block;
     object-fit: cover
 }
 
-.how-it-works-step-content-media img {
+.about-step-content-media img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover
 }
 
-.how-it-works-step-1 .how-it-works-step-content-media {
+.about-step-1 .about-step-content-media {
     top: -5em;
     right: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width-fixed-column) * .5);
     border-radius: 18px;
@@ -8276,22 +8276,22 @@ body.faq {
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-1 .how-it-works-step-content-media {
+    .about-step-1 .about-step-content-media {
         top: 8em;
         right: var(--modern-grid-column-margin)
     }
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-right .how-it-works-step-content {
+    .about-step-right .about-step-content {
         padding-left: 22px
     }
 
-    .how-it-works-step-left .how-it-works-step-content {
+    .about-step-left .about-step-content {
         left: calc(50% - 145px - 22px)
     }
 
-    .how-it-works-step-1 .how-it-works-step-content-media {
+    .about-step-1 .about-step-content-media {
         top: 5em;
         right: unset;
         left: calc(var(--modern-grid-column-margin) * .5);
@@ -8299,7 +8299,7 @@ body.faq {
     }
 }
 
-.how-it-works-step-2 .how-it-works-step-content-media {
+.about-step-2 .about-step-content-media {
     top: calc(100% - 5em);
     left: var(--modern-grid-column-margin);
     aspect-ratio: 540/360;
@@ -8307,21 +8307,21 @@ body.faq {
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-2 .how-it-works-step-content-media {
+    .about-step-2 .about-step-content-media {
         left: calc(var(--modern-grid-column-margin) * .5);
         width: calc(min(100vw, var(--center-column-max-width)) - var(--modern-grid-column-margin) - (50% + 36px))
     }
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-2 .how-it-works-step-content-media {
+    .about-step-2 .about-step-content-media {
         top: 210%;
         z-index: 10;
         width: calc(var(--modern-grid-column-width) * 5 + var(--modern-grid-column-gutter) * 4)
     }
 }
 
-.how-it-works-step-4 .how-it-works-step-content-media {
+.about-step-4 .about-step-content-media {
     top: calc(min(100vw, var(--center-column-max-width)) * -.05);
     left: calc(50% + 36px);
     aspect-ratio: 636/360;
@@ -8329,7 +8329,7 @@ body.faq {
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-4 .how-it-works-step-content-media {
+    .about-step-4 .about-step-content-media {
         top: 12em;
         right: calc(var(--modern-grid-column-margin) * .5);
         left: unset;
@@ -8338,7 +8338,7 @@ body.faq {
     }
 }
 
-.how-it-works-step-6 .how-it-works-step-content-media {
+.about-step-6 .about-step-content-media {
     top: -3em;
     left: calc(50% + 36px);
     aspect-ratio: 300/400;
@@ -8346,7 +8346,7 @@ body.faq {
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-6 .how-it-works-step-content-media {
+    .about-step-6 .about-step-content-media {
         top: -2em;
         right: calc(var(--modern-grid-column-margin) * .5);
         left: unset;
@@ -8355,7 +8355,7 @@ body.faq {
     }
 }
 
-.how-it-works-step-7 .how-it-works-step-content-media {
+.about-step-7 .about-step-content-media {
     top: -5em;
     left: calc(var(--modern-grid-column-margin));
     aspect-ratio: 636/358;
@@ -8363,38 +8363,38 @@ body.faq {
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-7 .how-it-works-step-content-media {
+    .about-step-7 .about-step-content-media {
         top: 14em;
         right: unset;
         left: calc(var(--modern-grid-column-margin) * .5);
         width: calc(var(--modern-grid-column-width) * 5 + var(--modern-grid-column-gutter) * 5)
     }
 
-    .how-it-works-step-7 .how-it-works-step-content-media video {
+    .about-step-7 .about-step-content-media video {
         aspect-ratio: 280/190 !important
     }
 }
 
-.how-it-works-step-9 .how-it-works-step-content-media {
+.about-step-9 .about-step-content-media {
     top: -5em;
     left: calc(var(--modern-grid-column-margin));
     aspect-ratio: 636/392;
     width: calc(50% - 36px - var(--modern-grid-column-margin))
 }
 
-.how-it-works-welcome img {
+.about-welcome img {
     display: block;
     border-radius: 4px;
     width: 100%;
     height: auto
 }
 
-.how-it-works-welcome {
+.about-welcome {
     position: relative;
     color: #fff
 }
 
-.how-it-works-welcome h5 {
+.about-welcome h5 {
     position: absolute;
     top: 30%;
     left: calc(var(--modern-grid-column-width-fixed-column) + var(--modern-grid-column-gutter));
@@ -8402,14 +8402,14 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .how-it-works-welcome h5 {
+    .about-welcome h5 {
         position: static;
         color: #000;
         text-align: center
     }
 }
 
-.how-it-works-welcome p {
+.about-welcome p {
     position: absolute;
     top: 36%;
     right: 24px;
@@ -8417,14 +8417,14 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .how-it-works-welcome p {
+    .about-welcome p {
         position: static;
         color: #000;
         text-align: center
     }
 }
 
-.how-it-works-welcome a {
+.about-welcome a {
     display: flex;
     position: absolute;
     right: 24px;
@@ -8434,16 +8434,16 @@ body.faq {
     height: 60px
 }
 
-.how-it-works-welcome a img {
+.about-welcome a img {
     width: 48px;
     height: 48px
 }
 
-.how-it-works-factory {
+.about-factory {
     position: relative
 }
 
-.how-it-works-factory-text {
+.about-factory-text {
     position: absolute;
     top: 42px;
     left: calc(var(--modern-grid-column-margin) + 42px);
@@ -8457,7 +8457,7 @@ body.faq {
 }
 
 @media (max-width:1024px) {
-    .how-it-works-factory-text {
+    .about-factory-text {
         top: 24px;
         left: calc(var(--modern-grid-column-margin) + 24px);
         padding: 24px
@@ -8465,7 +8465,7 @@ body.faq {
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-9 .how-it-works-step-content {
+    .about-step-9 .about-step-content {
         display: inline-block;
         position: relative;
         top: -18px;
@@ -8474,7 +8474,7 @@ body.faq {
         text-align: right
     }
 
-    .how-it-works-step-9 .how-it-works-step-content-media {
+    .about-step-9 .about-step-content-media {
         top: 35%;
         right: calc(var(--modern-grid-column-margin) * .5);
         left: unset;
@@ -8482,12 +8482,12 @@ body.faq {
         width: calc(var(--modern-grid-column-width) * 5 + var(--modern-grid-column-gutter) * 5)
     }
 
-    .how-it-works-factory video {
+    .about-factory video {
         aspect-ratio: 350/270;
         object-fit: cover
     }
 
-    .how-it-works-factory-text {
+    .about-factory-text {
         position: static;
         backdrop-filter: none;
         box-sizing: border-box;
@@ -8499,7 +8499,7 @@ body.faq {
     }
 }
 
-.how-it-works-step-8-text {
+.about-step-8-text {
     position: absolute;
     right: var(--modern-grid-column-margin);
     bottom: 85%;
@@ -8507,19 +8507,19 @@ body.faq {
 }
 
 @media (max-width:1024px) {
-    .how-it-works-step-8-text {
+    .about-step-8-text {
         top: calc(min(var(--center-column-max-width), 100vw) * .035);
         left: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width-fixed-column) * 1 + var(--modern-grid-column-gutter) * 1);
         width: calc(var(--modern-grid-column-width-fixed-column) * 4 + var(--modern-grid-column-gutter) * 3)
     }
 
-    .how-it-works-welcome a {
+    .about-welcome a {
         left: unset !important
     }
 }
 
 @media (max-width:450px) {
-    .how-it-works-step-8-text {
+    .about-step-8-text {
         position: absolute;
         top: unset;
         bottom: 35vw;
@@ -8530,20 +8530,20 @@ body.faq {
     }
 }
 
-.backyard.backyard-models,
-.backyard.backyard-models-index {
+.models.models-models,
+.models.models-models-index {
     background: #fff
 }
 
-.backyard.backyard-models-xl-10 {
+.models.models-models-xl-10 {
     background: #f7f7f0
 }
 
-.backyard-models-header-image {
+.models-models-header-image {
     background: rgba(0, 0, 0, .1)
 }
 
-.backyard-models-header-content {
+.models-models-header-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -8551,32 +8551,32 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .how-it-works-welcome a {
+    .about-welcome a {
         height: 72px;
         left: 24px !important;
         padding-left: 78px
     }
 
-    .how-it-works-welcome a img {
+    .about-welcome a img {
         width: 60px;
         height: 60px
     }
 
-    .how-it-works-welcome a svg {
+    .about-welcome a svg {
         transform: translateY(-1px)
     }
 
-    .backyard-models-header-content {
+    .models-models-header-content {
         flex-direction: column;
         align-items: flex-start;
         gap: 20px
     }
 
-    .backyard-models-header-content-subtitle p {
+    .models-models-header-content-subtitle p {
         display: inline
     }
 
-    .backyard-models-navigation {
+    .models-models-navigation {
         box-sizing: border-box;
         margin: 0 -24px;
         padding: 0 24px 3px;
@@ -8585,7 +8585,7 @@ body.faq {
     }
 }
 
-.backyard-models-navigation {
+.models-models-navigation {
     display: flex;
     flex-wrap: nowrap;
     gap: 12px;
@@ -8593,46 +8593,46 @@ body.faq {
     white-space: nowrap
 }
 
-.backyard-models-navigation::-webkit-scrollbar {
+.models-models-navigation::-webkit-scrollbar {
     display: none
 }
 
-.backyard-models-intro {
+.models-models-intro {
     display: flex;
     flex-direction: column;
     aspect-ratio: 1440/1037
 }
 
 @media (max-width:768px) {
-    .backyard-models-intro {
+    .models-models-intro {
         aspect-ratio: 375/513
     }
 
-    .backyard-models-studio .backyard-models-intro {
+    .models-models-studio .models-models-intro {
         aspect-ratio: 375/603 !important
     }
 }
 
-.backyard-models-onebed .backyard-models-intro,
-.backyard-models-twobed .backyard-models-intro {
+.models-models-onebed .models-models-intro,
+.models-models-twobed .models-models-intro {
     aspect-ratio: 1440/918
 }
 
-.backyard-models-intro-container {
+.models-models-intro-container {
     flex: 1
 }
 
-.backyard-models-intro .column-5,
-.backyard-models-intro .modern-grid {
+.models-models-intro .column-5,
+.models-models-intro .modern-grid {
     height: 100%
 }
 
-.backyard-models-intro .column-5 {
+.models-models-intro .column-5 {
     position: relative;
     z-index: 0
 }
 
-.backyard-models-intro .column-5 img {
+.models-models-intro .column-5 img {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -8641,45 +8641,45 @@ body.faq {
     object-fit: cover
 }
 
-.backyard-models-studio .backyard-models-intro .column-5 img {
+.models-models-studio .models-models-intro .column-5 img {
     width: calc(var(--modern-grid-column-width) * 5 + var(--modern-grid-column-gutter) * 4)
 }
 
 @media (max-width:768px) {
 
-    .backyard-models-onebed .backyard-models-intro,
-    .backyard-models-twobed .backyard-models-intro {
+    .models-models-onebed .models-models-intro,
+    .models-models-twobed .models-models-intro {
         aspect-ratio: 375/568 !important
     }
 
-    .backyard-models-xl .backyard-models-intro {
+    .models-models-xl .models-models-intro {
         aspect-ratio: 375/638 !important
     }
 
-    .backyard-models-xl-10 .backyard-models-intro {
+    .models-models-xl-10 .models-models-intro {
         aspect-ratio: 375/600 !important
     }
 
-    .backyard-models-studio .backyard-models-intro .column-5 img {
+    .models-models-studio .models-models-intro .column-5 img {
         width: calc(var(--modern-grid-column-width) * 4 + var(--modern-grid-column-gutter) * 3)
     }
 }
 
-.backyard-models-onebed .backyard-models-intro .column-5 img {
+.models-models-onebed .models-models-intro .column-5 img {
     width: calc(var(--modern-grid-column-width) * 7 + var(--modern-grid-column-gutter) * 7)
 }
 
 @media (max-width:768px) {
-    .backyard-models-onebed .backyard-models-intro .column-5 img {
+    .models-models-onebed .models-models-intro .column-5 img {
         width: calc(var(--modern-grid-column-width) * 4 + var(--modern-grid-column-gutter) * 3)
     }
 }
 
-.backyard-models-twobed .backyard-models-intro .column-5 img {
+.models-models-twobed .models-models-intro .column-5 img {
     width: calc(var(--modern-grid-column-width) * 7 + var(--modern-grid-column-gutter) * 7)
 }
 
-.backyard-models-intro-text {
+.models-models-intro-text {
     z-index: 1 !important;
     font-size: clamp(24px, 2.5vw, 100px);
     line-height: 110%;
@@ -8687,21 +8687,21 @@ body.faq {
     letter-spacing: -.02em
 }
 
-.backyard-models-floorplan,
-.backyard-models-xl-10 .backyard-models-intro {
+.models-models-floorplan,
+.models-models-xl-10 .models-models-intro {
     background: #f7f7f0
 }
 
-.backyard-models-xl-10 .backyard-models-floorplan {
+.models-models-xl-10 .models-models-floorplan {
     background: #fff
 }
 
-.backyard-models-floorplan-dimensions {
+.models-models-floorplan-dimensions {
     display: inline-block;
     position: relative
 }
 
-.backyard-models-dimension {
+.models-models-dimension {
     display: flex;
     position: absolute;
     justify-content: center;
@@ -8709,50 +8709,50 @@ body.faq {
     background-color: rgba(166, 173, 171, .5)
 }
 
-.backyard-models-dimension img {
+.models-models-dimension img {
     position: absolute
 }
 
-.backyard-models-dimension-horizontal {
+.models-models-dimension-horizontal {
     bottom: -24px;
     width: 100%;
     height: 1px
 }
 
-.backyard-models-dimension-horizontal div {
+.models-models-dimension-horizontal div {
     transform: translateY(1.5em)
 }
 
-.backyard-models-dimension-horizontal img:first-of-type {
+.models-models-dimension-horizontal img:first-of-type {
     left: 0;
     transform: scaleX(-1)
 }
 
-.backyard-models-dimension-horizontal img:last-of-type {
+.models-models-dimension-horizontal img:last-of-type {
     right: 0
 }
 
-.backyard-models-dimension-vertical {
+.models-models-dimension-vertical {
     top: 0;
     right: -24px;
     width: 1px;
     height: 100%
 }
 
-.backyard-models-dimension-vertical div {
+.models-models-dimension-vertical div {
     transform: translateX(1.5em)
 }
 
-.backyard-models-dimension-vertical img:first-of-type {
+.models-models-dimension-vertical img:first-of-type {
     top: -1px
 }
 
-.backyard-models-dimension-vertical img:last-of-type {
+.models-models-dimension-vertical img:last-of-type {
     bottom: -1px;
     transform: scaleY(-1)
 }
 
-.backyard-models-floorplan-dimensions-image {
+.models-models-floorplan-dimensions-image {
     display: inline-block;
     position: relative;
     cursor: pointer;
@@ -8760,93 +8760,93 @@ body.faq {
     height: auto
 }
 
-.backyard-models-studio .backyard-models-floorplan-dimensions-image {
+.models-models-studio .models-models-floorplan-dimensions-image {
     aspect-ratio: 620/320;
     width: 50vw
 }
 
 @media (max-width:768px) {
 
-    .backyard-models-twobed .backyard-models-intro .column-5 img,
-    .backyard-models-xl .backyard-models-intro .column-5 img {
+    .models-models-twobed .models-models-intro .column-5 img,
+    .models-models-xl .models-models-intro .column-5 img {
         width: calc(var(--modern-grid-column-width) * 4 + var(--modern-grid-column-gutter) * 3)
     }
 
-    .backyard-models-xl-10 .backyard-models-intro .column-5 img {
+    .models-models-xl-10 .models-models-intro .column-5 img {
         aspect-ratio: 230/280;
         width: calc(var(--modern-grid-column-width) * 4 + var(--modern-grid-column-gutter) * 5)
     }
 
-    .backyard-models-intro-text {
+    .models-models-intro-text {
         font-size: clamp(18px, 8vw, 100px)
     }
 
-    .backyard-models-floorplan-dimensions-image {
+    .models-models-floorplan-dimensions-image {
         width: 200px;
         height: auto
     }
 
-    .backyard-models-studio .backyard-models-floorplan-dimensions-image {
+    .models-models-studio .models-models-floorplan-dimensions-image {
         aspect-ratio: 190/360
     }
 }
 
-.backyard-models-onebed .backyard-models-floorplan-dimensions-image {
+.models-models-onebed .models-models-floorplan-dimensions-image {
     aspect-ratio: 570/230
 }
 
 @media (max-width:768px) {
-    .backyard-models-onebed .backyard-models-floorplan-dimensions-image {
+    .models-models-onebed .models-models-floorplan-dimensions-image {
         aspect-ratio: 260/640
     }
 }
 
-.backyard-models-twobed .backyard-models-floorplan-dimensions-image {
+.models-models-twobed .models-models-floorplan-dimensions-image {
     aspect-ratio: 790/250
 }
 
 @media (max-width:768px) {
-    .backyard-models-twobed .backyard-models-floorplan-dimensions-image {
+    .models-models-twobed .models-models-floorplan-dimensions-image {
         aspect-ratio: 160/510
     }
 }
 
-.backyard-models-xl .backyard-models-floorplan-dimensions-image {
+.models-models-xl .models-models-floorplan-dimensions-image {
     aspect-ratio: 655/510;
     width: 50vw
 }
 
 @media (max-width:768px) {
-    .backyard-models-xl .backyard-models-floorplan-dimensions-image {
+    .models-models-xl .models-models-floorplan-dimensions-image {
         aspect-ratio: 510/655;
         width: 70vw;
         height: auto
     }
 }
 
-.backyard-models-xl-10 .backyard-models-floorplan-dimensions-image {
+.models-models-xl-10 .models-models-floorplan-dimensions-image {
     aspect-ratio: 770/505;
     width: 50vw
 }
 
-.backyard-models-floorplan-dimensions-image img {
+.models-models-floorplan-dimensions-image img {
     position: absolute;
     width: auto;
     height: 100%
 }
 
-.backyard-models-xl .backyard-models-floorplan-download,
-.backyard-models-xl-10 .backyard-models-floorplan-download {
+.models-models-xl .models-models-floorplan-download,
+.models-models-xl-10 .models-models-floorplan-download {
     display: none
 }
 
-.backyard-models-floorplan-download a {
+.models-models-floorplan-download a {
     display: flex;
     align-items: center;
     white-space: nowrap
 }
 
-.backyard-models-floorplan-tour-button {
+.models-models-floorplan-tour-button {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -8854,19 +8854,19 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-xl-10 .backyard-models-floorplan-dimensions-image {
+    .models-models-xl-10 .models-models-floorplan-dimensions-image {
         aspect-ratio: 300/455;
         width: 70vw;
         height: auto
     }
 
-    .backyard-models-floorplan-tour-button {
+    .models-models-floorplan-tour-button {
         align-items: center;
         transform: none
     }
 }
 
-.backyard-models-floorplan-tour-button button {
+.models-models-floorplan-tour-button button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8879,13 +8879,13 @@ body.faq {
     height: 48px
 }
 
-.backyard-models-interior {
+.models-models-interior {
     position: relative;
     aspect-ratio: 1440/880;
     color: #fff
 }
 
-.backyard-models-interior h1 {
+.models-models-interior h1 {
     position: absolute;
     top: 0;
     left: 11%;
@@ -8895,13 +8895,13 @@ body.faq {
     letter-spacing: -.02em
 }
 
-.backyard-models-interior img {
+.models-models-interior img {
     background: rgba(0, 0, 0, .1);
     aspect-ratio: 1440/880;
     object-fit: cover
 }
 
-.backyard-models-interior .modern-grid {
+.models-models-interior .modern-grid {
     position: absolute;
     top: 0;
     left: 0;
@@ -8909,15 +8909,15 @@ body.faq {
     height: 100%
 }
 
-.backyard-models .interior-carousel-cards-card {
+.models-models .interior-carousel-cards-card {
     min-width: unset
 }
 
-.backyard-models .interior-carousel-cards-card-images {
+.models-models .interior-carousel-cards-card-images {
     aspect-ratio: unset
 }
 
-.backyard-models .interior-carousel-cards-card-images img {
+.models-models .interior-carousel-cards-card-images img {
     position: static;
     background: rgba(0, 0, 0, .1);
     width: auto;
@@ -8927,95 +8927,95 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-interior {
+    .models-models-interior {
         aspect-ratio: 375/456
     }
 
-    .backyard-models-interior h1 {
+    .models-models-interior h1 {
         left: 6.4%;
         font-size: 9.6vw
     }
 
-    .backyard-models-interior img {
+    .models-models-interior img {
         aspect-ratio: 375/456
     }
 
-    .backyard-models .interior-carousel-cards-card {
+    .models-models .interior-carousel-cards-card {
         min-width: calc(var(--modern-grid-column-width) * 6 + var(--modern-grid-column-gutter) * 5)
     }
 
-    .backyard-models .interior-carousel-cards-card-images img {
+    .models-models .interior-carousel-cards-card-images img {
         aspect-ratio: 745/556;
         width: 100%;
         height: auto
     }
 
-    .backyard-models .interior-carousel-cards-card p {
+    .models-models .interior-carousel-cards-card p {
         width: 90%
     }
 }
 
-.backyard-models-collage {
+.models-models-collage {
     position: relative;
     background: #f7f7f0;
     aspect-ratio: 1440/1917
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage {
+    .models-models-collage {
         aspect-ratio: 375/732
     }
 
-    .backyard-models-studio .backyard-models-collage {
+    .models-models-studio .models-models-collage {
         aspect-ratio: 375/735 !important
     }
 
-    .backyard-models-onebed .backyard-models-collage {
+    .models-models-onebed .models-models-collage {
         aspect-ratio: 375/657 !important
     }
 
-    .backyard-models-twobed .backyard-models-collage {
+    .models-models-twobed .models-models-collage {
         aspect-ratio: 375/650 !important
     }
 
-    .backyard-models-xl-10 .backyard-models-collage {
+    .models-models-xl-10 .models-models-collage {
         aspect-ratio: 375/520 !important;
         overflow: hidden
     }
 }
 
-.backyard-models-studio .backyard-models-collage {
+.models-models-studio .models-models-collage {
     aspect-ratio: 1440/2000
 }
 
-.backyard-models-twobed .backyard-models-collage {
+.models-models-twobed .models-models-collage {
     aspect-ratio: 1440/1923
 }
 
-.backyard-models-xl .backyard-models-collage {
+.models-models-xl .models-models-collage {
     aspect-ratio: 1440/1753
 }
 
 @media (max-width:768px) {
-    .backyard-models-xl .backyard-models-collage {
+    .models-models-xl .models-models-collage {
         aspect-ratio: 375/745
     }
 }
 
-.backyard-models-xl-10 .backyard-models-collage {
+.models-models-xl-10 .models-models-collage {
     aspect-ratio: 1440/1621
 }
 
-.backyard-models-collage>* {
+.models-models-collage>* {
     position: absolute
 }
 
-.backyard-models-collage img {
+.models-models-collage img {
     background: rgba(0, 0, 0, .1);
     object-fit: cover
 }
 
-.backyard-models-collage-text {
+.models-models-collage-text {
     top: 5%;
     left: calc(var(--modern-grid-column-width) + var(--modern-grid-column-gutter) + var(--modern-grid-column-margin));
     z-index: 2;
@@ -9027,7 +9027,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-text {
+    .models-models-collage-text {
         top: 7%;
         left: var(--modern-grid-column-margin);
         width: calc(var(--modern-grid-column-width) * 6 + var(--modern-grid-column-gutter) * 5) !important;
@@ -9036,16 +9036,16 @@ body.faq {
     }
 }
 
-.backyard-models-collage-text-xl {
+.models-models-collage-text-xl {
     z-index: 10;
     width: calc(var(--modern-grid-column-width) * 7 + var(--modern-grid-column-gutter) * 7)
 }
 
-.backyard-models-collage-text-xl-10 {
+.models-models-collage-text-xl-10 {
     width: calc(var(--modern-grid-column-width) * 7 + var(--modern-grid-column-gutter) * 7)
 }
 
-.backyard-models-collage-image-one-studio {
+.models-models-collage-image-one-studio {
     top: 35%;
     left: var(--modern-grid-column-margin);
     aspect-ratio: 654/858;
@@ -9054,7 +9054,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-one-studio {
+    .models-models-collage-image-one-studio {
         top: 29%;
         left: 47%;
         aspect-ratio: 185/246;
@@ -9063,7 +9063,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-one-onebed {
+.models-models-collage-image-one-onebed {
     top: 30%;
     left: var(--modern-grid-column-margin);
     z-index: 1;
@@ -9073,7 +9073,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-one-onebed {
+    .models-models-collage-image-one-onebed {
         top: 41%;
         left: var(--modern-grid-column-margin);
         aspect-ratio: 156/210;
@@ -9082,7 +9082,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-one-twobed {
+.models-models-collage-image-one-twobed {
     top: 44%;
     left: var(--modern-grid-column-margin);
     aspect-ratio: 428/572;
@@ -9091,7 +9091,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-one-twobed {
+    .models-models-collage-image-one-twobed {
         top: 50%;
         left: var(--modern-grid-column-margin);
         aspect-ratio: 100/133;
@@ -9100,7 +9100,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-one-xl {
+.models-models-collage-image-one-xl {
     top: 28%;
     left: var(--modern-grid-column-margin);
     z-index: 1;
@@ -9110,7 +9110,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-one-xl {
+    .models-models-collage-image-one-xl {
         top: 43%;
         left: var(--modern-grid-column-margin);
         z-index: 2;
@@ -9120,7 +9120,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-one-xl-10 {
+.models-models-collage-image-one-xl-10 {
     top: 42%;
     left: var(--modern-grid-column-margin);
     aspect-ratio: 654/870;
@@ -9129,7 +9129,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-one-xl-10 {
+    .models-models-collage-image-one-xl-10 {
         top: 52%;
         left: var(--modern-grid-column-margin);
         z-index: 2;
@@ -9139,7 +9139,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-two-studio {
+.models-models-collage-image-two-studio {
     top: 22.5%;
     left: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width) * 7 + var(--modern-grid-column-gutter) * 7);
     aspect-ratio: 541/723;
@@ -9148,7 +9148,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-two-studio {
+    .models-models-collage-image-two-studio {
         top: 47.5%;
         left: var(--modern-grid-column-margin);
         z-index: 1;
@@ -9158,7 +9158,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-two-onebed {
+.models-models-collage-image-two-onebed {
     top: 20%;
     right: var(--modern-grid-column-margin);
     aspect-ratio: 541/714;
@@ -9167,7 +9167,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-two-onebed {
+    .models-models-collage-image-two-onebed {
         top: 27%;
         right: var(--modern-grid-column-margin);
         aspect-ratio: 156/205;
@@ -9176,7 +9176,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-two-twobed {
+.models-models-collage-image-two-twobed {
     top: 16%;
     right: var(--modern-grid-column-margin);
     left: unset;
@@ -9186,7 +9186,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-two-twobed {
+    .models-models-collage-image-two-twobed {
         top: 26%;
         right: var(--modern-grid-column-gutter);
         left: unset;
@@ -9196,7 +9196,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-two-xl {
+.models-models-collage-image-two-xl {
     top: 25%;
     right: var(--modern-grid-column-margin);
     left: unset;
@@ -9206,7 +9206,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-two-xl {
+    .models-models-collage-image-two-xl {
         top: 28.5%;
         right: var(--modern-grid-column-gutter);
         left: unset;
@@ -9216,7 +9216,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-two-xl-10 {
+.models-models-collage-image-two-xl-10 {
     top: 16%;
     left: calc(var(--modern-grid-column-width) * 6 + var(--modern-grid-column-gutter) * 6 + var(--modern-grid-column-margin));
     aspect-ratio: 654/495;
@@ -9225,7 +9225,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-two-xl-10 {
+    .models-models-collage-image-two-xl-10 {
         top: 26%;
         left: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width) * 3 + var(--modern-grid-column-gutter) * 3);
         aspect-ratio: 169/137;
@@ -9234,7 +9234,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-three-studio {
+.models-models-collage-image-three-studio {
     top: 62.5%;
     left: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width) * 6 + var(--modern-grid-column-gutter) * 6);
     aspect-ratio: 427/641;
@@ -9243,7 +9243,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-three-studio {
+    .models-models-collage-image-three-studio {
         top: 68%;
         left: 47%;
         aspect-ratio: 115/174;
@@ -9252,7 +9252,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-three-onebed {
+.models-models-collage-image-three-onebed {
     top: 69%;
     left: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width) * 5 + var(--modern-grid-column-gutter) * 5);
     aspect-ratio: 654/470;
@@ -9261,7 +9261,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-three-onebed {
+    .models-models-collage-image-three-onebed {
         top: 67%;
         right: var(--modern-grid-column-margin);
         left: unset;
@@ -9271,7 +9271,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-three-twobed {
+.models-models-collage-image-three-twobed {
     top: 61.5%;
     left: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width) * 4 + var(--modern-grid-column-gutter) * 4);
     z-index: 1;
@@ -9281,7 +9281,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-three-twobed {
+    .models-models-collage-image-three-twobed {
         top: 62%;
         left: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width) * 2 + var(--modern-grid-column-gutter) * 2);
         aspect-ratio: 158/194;
@@ -9290,7 +9290,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-three-xl {
+.models-models-collage-image-three-xl {
     top: 68%;
     left: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width) * 1 + var(--modern-grid-column-gutter) * 1);
     z-index: 1;
@@ -9300,7 +9300,7 @@ body.faq {
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-three-xl {
+    .models-models-collage-image-three-xl {
         top: 68%;
         left: calc(var(--modern-grid-column-margin) + var(--modern-grid-column-width) * 1 + var(--modern-grid-column-gutter) * 1);
         aspect-ratio: 214/161;
@@ -9309,7 +9309,7 @@ body.faq {
     }
 }
 
-.backyard-models-collage-image-three-xl-10 {
+.models-models-collage-image-three-xl-10 {
     top: 61%;
     left: calc(var(--modern-grid-column-width) * 7 + var(--modern-grid-column-gutter) * 6 + var(--modern-grid-column-margin));
     aspect-ratio: 427/320;
@@ -9317,17 +9317,17 @@ body.faq {
     height: auto
 }
 
-.backyard-models-doorway-container {
+.models-models-doorway-container {
     background: #fdfdf7
 }
 
-.backyard-models-doorway {
+.models-models-doorway {
     display: flex;
     gap: var(--modern-grid-column-gutter)
 }
 
 @media (max-width:768px) {
-    .backyard-models-collage-image-three-xl-10 {
+    .models-models-collage-image-three-xl-10 {
         top: 61%;
         right: var(--modern-grid-column-margin);
         left: unset;
@@ -9336,81 +9336,81 @@ body.faq {
         height: auto
     }
 
-    .backyard-models-doorway {
+    .models-models-doorway {
         flex-direction: column;
         gap: 0
     }
 
-    .backyard-models-doorway .doorway-item {
+    .models-models-doorway .doorway-item {
         aspect-ratio: 351/234
     }
 }
 
-.backyard-models-doorway .doorway-item {
+.models-models-doorway .doorway-item {
     flex: 1
 }
 
-.backyard-models-specs {
+.models-models-specs {
     background: #fdfdf7
 }
 
-.backyard-models-specs-table {
+.models-models-specs-table {
     display: flex;
     flex-wrap: wrap;
     gap: calc(var(--modern-grid-column-gutter) * 2)
 }
 
-.backyard-models-specs-table-group {
+.models-models-specs-table-group {
     width: calc((100% - var(--modern-grid-column-gutter) * 6)/ 4)
 }
 
 @media (max-width:768px) {
-    .backyard-models-specs-table {
+    .models-models-specs-table {
         gap: 0
     }
 
-    .backyard-models-specs-table-group {
+    .models-models-specs-table-group {
         width: 100% !important
     }
 
-    .backyard-models-specs-table-group .type-14,
-    .backyard-models-specs-table-group .type-18 {
+    .models-models-specs-table-group .type-14,
+    .models-models-specs-table-group .type-18 {
         display: inline
     }
 
-    .backyard-models-specs-table-group .type-18+.type-14 {
+    .models-models-specs-table-group .type-18+.type-14 {
         margin-left: 4px
     }
 
-    .backyard-models-specs-table-collapsible-content {
+    .models-models-specs-table-collapsible-content {
         display: none
     }
 
-    .backyard-models-specs-table-collapsible:has(input:checked)+.backyard-models-specs-table-collapsible-content {
+    .models-models-specs-table-collapsible:has(input:checked)+.models-models-specs-table-collapsible-content {
         display: block
     }
 
-    .backyard-models-specs-table-collapsible:has(input:checked) img {
+    .models-models-specs-table-collapsible:has(input:checked) img {
         transform: none
     }
 }
 
 @media (max-width:1350px) {
-    .backyard-models-specs-table-group {
+    .models-models-specs-table-group {
         width: calc((100% - var(--modern-grid-column-gutter) * 6)/ 2)
     }
 }
 
-.backyard-models-specs-table-section {
+.models-models-specs-table-section {
     border-top: 1px solid rgba(0, 0, 0, .2);
     padding-top: 8px
 }
 
-.backyard-models-specs-table-collapsible {
+.models-models-specs-table-collapsible {
     position: relative
 }
 
-.backyard-models-specs-table-collapsible input {
+.models-models-specs-table-collapsible input {
     position: absolute;
     opacity: 0;
     margin: 0;
@@ -9419,14 +9419,14 @@ body.faq {
     height: 100%
 }
 
-.backyard-models-specs-table-collapsible img {
+.models-models-specs-table-collapsible img {
     position: absolute;
     top: 35%;
     right: var(--modern-grid-column-margin);
     transform: scaleY(-1)
 }
 
-.backyard-models-specs-table-collapsible hr {
+.models-models-specs-table-collapsible hr {
     appearance: none;
     margin: 0 0 8px;
     border: none;
@@ -9435,15 +9435,15 @@ body.faq {
     width: 100%
 }
 
-.backyard-models-basement {
+.models-models-basement {
     background: #fdfdf7
 }
 
-.backyard-models-specs .specs-content-colors {
+.models-models-specs .specs-content-colors {
     gap: 12px
 }
 
-.backyard-models-specs .specs-content-colors>div {
+.models-models-specs .specs-content-colors>div {
     aspect-ratio: 1
 }
 
@@ -9452,14 +9452,14 @@ body.faq {
     padding: 0 10vw
 }
 
-.backyard .slide.models-overview-header {
+.models .slide.models-overview-header {
     display: block;
     background: #000;
     min-height: unset;
     color: #fff
 }
 
-.backyard .slide.models-lineup {
+.models .slide.models-lineup {
     flex-direction: column;
     background: #fff;
     min-height: unset
@@ -10016,24 +10016,24 @@ body.segue {
     overflow-x: clip
 }
 
-.backyard .slides {
+.models .slides {
     width: 100vw;
     height: auto
 }
 
-.backyard .slide {
+.models .slide {
     display: flex;
     position: relative;
     width: 100vw;
     min-height: 100vh
 }
 
-.backyard .slides p {
+.models .slides p {
     margin: 0;
     padding: 0
 }
 
-.backyard .backyard-basement {
+.models .models-basement {
     flex-direction: column;
     background: var(--color-biege);
     min-height: unset
@@ -11143,7 +11143,7 @@ nav {
 }
 
 @media (min-width:768px) and (max-width:1024px) {
-    .backyard .slides .jealousy .h3 {
+    .models .slides .jealousy .h3 {
         grid-column: col-start 2/span 6
     }
 
@@ -11191,7 +11191,7 @@ nav .logo img {
         width: 67px
     }
 
-    nav .backyard-configure,
+    nav .models-configure,
     nav .financing-get-your-rate-button {
         position: absolute;
         top: -12px;
@@ -11320,7 +11320,7 @@ nav.inverted ul+ol a.current {
     color: #fff
 }
 
-nav ul .backyard-menu-item {
+nav ul .models-menu-item {
     opacity: 0;
     margin: 0;
     width: 0;
@@ -11328,7 +11328,7 @@ nav ul .backyard-menu-item {
     overflow: hidden
 }
 
-nav ul .backyard-menu-item-mobile {
+nav ul .models-menu-item-mobile {
     display: none
 }
 
@@ -11336,14 +11336,14 @@ nav ul .pages-menu-item {
     margin-left: 24px
 }
 
-.backyard-menu-item {
+.models-menu-item {
     opacity: 1 !important;
     margin-left: 24px !important;
     width: auto !important;
     overflow: visible !important
 }
 
-nav .backyard-configure {
+nav .models-configure {
     opacity: 0;
     transition: opacity .4s;
     pointer-events: none
@@ -11353,19 +11353,19 @@ nav .get-in-touch {
     display: none
 }
 
-.backyard nav .backyard-configure {
+.models nav .models-configure {
     opacity: 1;
     pointer-events: all
 }
 
-.configurator nav .backyard-configure,
-nav.transition-configurator .backyard-configure {
+.configurator nav .models-configure,
+nav.transition-configurator .models-configure {
     opacity: 0;
     pointer-events: none
 }
 
 @media screen and (min-width:800px) {
-    nav .backyard-configure:hover {
+    nav .models-configure:hover {
         color: rgba(255, 255, 255, .8)
     }
 }
@@ -11450,12 +11450,12 @@ main.in-pop {
     }
 }
 
-.backyard-configure.multiunit,
-.multiunit .backyard-configure {
+.models-configure.multiunit,
+.multiunit .models-configure {
     display: none
 }
 
-.multiunit .backyard-configure.multiunit {
+.multiunit .models-configure.multiunit {
     display: block
 }
 
@@ -11466,13 +11466,13 @@ main.in-pop {
     top: 32.5px
 }
 
-.backyard-models nav ul+ol,
+.models-models nav ul+ol,
 .main-navigation-hover-models ul+ol {
     opacity: 1;
     pointer-events: all
 }
 
-.backyard-models nav ul,
+.models-models nav ul,
 .main-navigation-hover-models ul {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0
@@ -11540,7 +11540,7 @@ nav ul+ol li a.current+span {
     appearance: none
 }
 
-.backyard-models .main-navigation-models-divider,
+.models-models .main-navigation-models-divider,
 .main-navigation-hover-models .main-navigation-models-divider {
     display: block;
     position: absolute;
@@ -11555,7 +11555,7 @@ nav ul+ol li a.current+span {
     border-top: 1px solid rgba(255, 255, 255, .2)
 }
 
-.backyard .backyard-menu-item:has(+ :not(.backyard-menu-item)) {
+.models .models-menu-item:has(+ :not(.models-menu-item)) {
     border-bottom: none
 }
 
@@ -11563,7 +11563,7 @@ nav ul+ol li a.current+span {
     filter: none
 }
 
-.financing nav .backyard-configure.button-rounded,
+.financing nav .models-configure.button-rounded,
 nav .financing-get-your-rate-button.button-rounded {
     display: none
 }
@@ -11590,8 +11590,8 @@ nav .financing-get-your-rate-button.button-rounded {
         margin-left: max(calc((100vw - 1600px)/ 2 + var(--modern-grid-column-margin)), var(--modern-grid-column-margin))
     }
 
-    .backyard-models nav ul,
-    .backyard-models nav ul+ol,
+    .models-models nav ul,
+    .models-models nav ul+ol,
     nav.main-navigation-hover-models ul,
     nav.main-navigation-hover-models ul+ol {
         justify-content: center;
